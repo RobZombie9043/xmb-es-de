@@ -84,7 +84,7 @@ license:       creative commons CC-BY-NC-SA
 			<iconColor>${textColor}FF</iconColor>
 			<backgroundColor>${statusBGColor}</backgroundColor>
 			<backgroundHorizontalPadding>0.015 0.015</backgroundHorizontalPadding>
-			<backgroundVerticalPadding>0.010 0.010</backgroundVerticalPadding>
+			<backgroundVerticalPadding>0.0125 0.0125</backgroundVerticalPadding>
 		</helpsystem>
 		<helpsystem name="help">
 			<scope>view</scope>
@@ -95,24 +95,22 @@ license:       creative commons CC-BY-NC-SA
 		</helpsystem>
 		<clock name="clock">
 			<origin>0 1</origin>
-			<pos>0.84 0.0625</pos>
 			<fontPath>${fontRodin}</fontPath>
 			<fontSize>${fontSize3}</fontSize>
 			<format>%d/%m %H:%M</format>
 			<color>${textColor}FF</color>
 			<backgroundColor>${statusBGColor}</backgroundColor>
 			<backgroundHorizontalPadding>0.015 0.2</backgroundHorizontalPadding>
-			<backgroundVerticalPadding>0.01 0.01</backgroundVerticalPadding>
+			<backgroundVerticalPadding>0.0125 0.0125</backgroundVerticalPadding>
 		</clock>
 		<systemstatus name="system-status">
 			<origin>0 0</origin>
-			<pos>0.84 0.0825</pos>
 			<fontPath>${fontRodin}</fontPath>
 			<height>${fontSize3}</height>
 			<color>${textColor}FF</color>
 			<backgroundColor>${statusBGColor}</backgroundColor>
 			<backgroundHorizontalPadding>0.015 0.2</backgroundHorizontalPadding>
-			<backgroundVerticalPadding>0.01 0.01</backgroundVerticalPadding>
+			<backgroundVerticalPadding>0.0125 0.0125</backgroundVerticalPadding>
 		</systemstatus>
 	</view>
 		
