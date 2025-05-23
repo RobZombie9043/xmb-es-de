@@ -9,7 +9,7 @@
 			<gamelistDefaultImagePath>./_inc/images/PS20th.webp</gamelistDefaultImagePath>
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
-			<bgLogoVisible>true</bgLogoVisible>
+			<bgLogoVisible>false</bgLogoVisible>
 			<systemUnfocusedItemOpacity>0.5</systemUnfocusedItemOpacity>
 			<systemUnfocusedItemDimming>1</systemUnfocusedItemDimming>
 			<gamelistUnfocusedItemOpacity>0.5</gamelistUnfocusedItemOpacity>
