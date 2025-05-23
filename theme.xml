@@ -51,6 +51,15 @@ license:       creative commons CC-BY-NC-SA
 			<visible>${bgLogoVisible}</visible>
 			<stationary>always</stationary>
 		</image>
+		<image name="system-background-frame">
+			<origin>0 0</origin> 
+			<pos>0 0</pos>			
+			<cropSize>1 1</cropSize>
+			<path>./_inc/images/cyberpunk-frame.png</path>
+			<visible>${bgFrameVisible}</visible>
+			<stationary>always</stationary>
+			<zIndex>60</zIndex>
+		</image>
 		<text name="systemName, autoCollectionName, customCollectionName">
 			<origin>0.5 0.5</origin> 
 			<horizontalAlignment>center</horizontalAlignment>
