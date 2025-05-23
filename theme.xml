@@ -58,7 +58,7 @@ license:       creative commons CC-BY-NC-SA
 			<fontSize>${fontSize3}</fontSize>
 			<fontPath>${fontRodin}</fontPath>
 			<lineSpacing>1.1</lineSpacing>
-			<color>${textColor2}</color>
+			<color>${systemNameTextColor}</color>
 			<stationary>always</stationary>
 		</text>
 		<text name="systemName">
@@ -80,8 +80,8 @@ license:       creative commons CC-BY-NC-SA
 			<posDimmed>0.5 0.955</posDimmed>
 			<fontPath>${fontRodin}</fontPath>
 			<fontSize>${fontSize3}</fontSize>
-			<textColor>${textColor}FF</textColor>
-			<iconColor>${textColor2}FF</iconColor>
+			<textColor>${helpTextColor}</textColor>
+			<iconColor>${helpIconColor}</iconColor>
 			<backgroundColor>${statusBGColor}</backgroundColor>
 			<backgroundHorizontalPadding>0.015 0.015</backgroundHorizontalPadding>
 			<backgroundVerticalPadding>0.0125 0.0125</backgroundVerticalPadding>
@@ -98,7 +98,7 @@ license:       creative commons CC-BY-NC-SA
 			<fontPath>${fontRodin}</fontPath>
 			<fontSize>${fontSize3}</fontSize>
 			<format>%d/%m %H:%M</format>
-			<color>${textColor}FF</color>
+			<color>${helpTextColor}</color>
 			<backgroundColor>${statusBGColor}</backgroundColor>
 			<backgroundHorizontalPadding>0.015 0.2</backgroundHorizontalPadding>
 			<backgroundVerticalPadding>0.0125 0.0125</backgroundVerticalPadding>
@@ -107,7 +107,7 @@ license:       creative commons CC-BY-NC-SA
 			<origin>0 0</origin>
 			<fontPath>${fontRodin}</fontPath>
 			<height>${fontSize3}</height>
-			<color>${textColor2}FF</color>
+			<color>${helpIconColor}</color>
 			<backgroundColor>${statusBGColor}</backgroundColor>
 			<backgroundHorizontalPadding>0.015 0.2</backgroundHorizontalPadding>
 			<backgroundVerticalPadding>0.0125 0.0125</backgroundVerticalPadding>
@@ -136,13 +136,13 @@ license:       creative commons CC-BY-NC-SA
 			<pos>0.5 0.25</pos>
 			<size>1 1</size>
 			<type>horizontal</type>
-			<staticImage>./_inc/systems/controllers/${folderName}/${system.theme}.${extName}</staticImage>
-			<defaultImage>./_inc/systems/controllers/${folderName}/_default.${extName}</defaultImage>
+			<staticImage>./_inc/systems/controllers/${iconType}/${system.theme}.png</staticImage>
+			<defaultImage>./_inc/systems/controllers/${iconType}/_default.png</defaultImage>
 			<itemSize>0.1 0.1</itemSize>
 			<itemScale>1.5</itemScale>
 			<fastScrolling>true</fastScrolling>
 			<color>00000000</color>
-			<imageColor>${iconColor}</imageColor>
+			<imageColor>${systemCarouselIconColor}</imageColor>
 			<unfocusedItemOpacity>${systemUnfocusedItemOpacity}</unfocusedItemOpacity>
 			<unfocusedItemDimming>${systemUnfocusedItemDimming}</unfocusedItemDimming>
 			<zIndex>5</zIndex>
@@ -183,7 +183,7 @@ license:       creative commons CC-BY-NC-SA
 				<itemScale>1.25</itemScale>
 				<fastScrolling>true</fastScrolling>
 				<color>00000000</color>
-				<textColor>${textColor}</textColor>
+				<textColor>${carouselTextColor}</textColor>
 				<lineSpacing>1.5</lineSpacing>
 				<zIndex>5</zIndex>
 			</carousel>
@@ -192,43 +192,43 @@ license:       creative commons CC-BY-NC-SA
 				<maxSize>0.1 0.1</maxSize>			
 				<tile>false</tile>
 				<zIndex>2</zIndex>
-				<default>./_inc/systems/controllers/${folderName}/_default.${extName}</default>
+				<default>./_inc/systems/controllers/${iconType}/_default.png</default>
 				<stationary>always</stationary>
 				<interpolation>linear</interpolation>
-				<color>${iconColor}</color>
+				<color>${systemCarouselIconColor}</color>
 				<opacity>${gamelistUnfocusedItemOpacity}</opacity>
 				<brightness>${gamelistUnfocusedItemBrightness}</brightness>
 			</image>
 			<image name="background-carousel-minus-2">
-				<path>./_inc/systems/controllers/${folderName}/${systemMinus2}.${extName}</path>
+				<path>./_inc/systems/controllers/${iconType}/${systemMinus2}.png</path>
 			</image>
 			<image name="background-carousel-minus-1">
-				<path>./_inc/systems/controllers/${folderName}/${systemMinus1}.${extName}</path>
+				<path>./_inc/systems/controllers/${iconType}/${systemMinus1}.png</path>
 			</image>
 			<image name="background-carousel">
 				<maxSize>0.15 0.15</maxSize>				
-				<path>./_inc/systems/controllers/${folderName}/${system.theme}.${extName}</path>
+				<path>./_inc/systems/controllers/${iconType}/${system.theme}.png</path>
 				<opacity>1</opacity>
 				<brightness>0</brightness>
 				<zIndex>99</zIndex>
 			</image>
 			<image name="background-carousel-plus-1">		
-				<path>./_inc/systems/controllers/${folderName}/${systemPlus1}.${extName}</path>
+				<path>./_inc/systems/controllers/${iconType}/${systemPlus1}.png</path>
 			</image>
 			<image name="background-carousel-plus-2">
-				<path>./_inc/systems/controllers/${folderName}/${systemPlus2}.${extName}</path>
+				<path>./_inc/systems/controllers/${iconType}/${systemPlus2}.png</path>
 			</image>
 			<image name="background-carousel-plus-3">
-				<path>./_inc/systems/controllers/${folderName}/${systemPlus3}.${extName}</path>
+				<path>./_inc/systems/controllers/${iconType}/${systemPlus3}.png</path>
 			</image>
 			<image name="background-carousel-plus-4">
-				<path>./_inc/systems/controllers/${folderName}/${systemPlus4}.${extName}</path>
+				<path>./_inc/systems/controllers/${iconType}/${systemPlus4}.png</path>
 			</image>
 			<image name="background-carousel-plus-5">
-				<path>./_inc/systems/controllers/${folderName}/${systemPlus5}.${extName}</path>
+				<path>./_inc/systems/controllers/${iconType}/${systemPlus5}.png</path>
 			</image>
 			<image name="background-carousel-plus-6">
-				<path>./_inc/systems/controllers/${folderName}/${systemPlus6}.${extName}</path>
+				<path>./_inc/systems/controllers/${iconType}/${systemPlus6}.png</path>
 			</image>
 		</view>
 	</variant>
@@ -261,7 +261,7 @@ license:       creative commons CC-BY-NC-SA
 				<lineSpacing>1.3</lineSpacing>
 				<container>true</container>
 				<containerType>horizontal</containerType>
-				<color>${textColor2}</color>
+				<color>${gameNameColor}</color>
 				<stationary>withinView</stationary>	
 			</text>
 			<text name="game-genre">
@@ -273,7 +273,7 @@ license:       creative commons CC-BY-NC-SA
 				<fontSize>${fontSize3}</fontSize>
 				<fontPath>${fontRodin}</fontPath>
 				<lineSpacing>1.1</lineSpacing>
-				<color>${textColor}</color>
+				<color>${gameGenreColor}</color>
 				<stationary>withinView</stationary>	
 			</text>
 		</view>	
@@ -346,7 +346,7 @@ license:       creative commons CC-BY-NC-SA
 				<itemSize>0.5 0.1</itemSize>
 				<fontSize>${fontSize2}</fontSize>
 				<fontPath>${fontRodin}</fontPath>
-				<textColor>${textColor}</textColor>
+				<textColor>${carouselTextColor}</textColor>
 				<itemScale>1.5</itemScale>
 				<unfocusedItemOpacity>0.5</unfocusedItemOpacity>
 				<textHorizontalScrolling>true</textHorizontalScrolling>

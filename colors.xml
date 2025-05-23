@@ -1,8 +1,7 @@
 <theme>
 	<colorScheme name="20th-anniversary">
         <variables>
-			<folderName>20th-anniversary</folderName>
-			<extName>png</extName>
+			<iconType>20th-anniversary</iconType>
 			<blurBG>false</blurBG>
 			<bgCropPos>0.85 0.5</bgCropPos>
 			<gamelistImagePath>./_inc/images/PS20th.webp</gamelistImagePath>
@@ -10,21 +9,24 @@
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
 			<bgLogoVisible>false</bgLogoVisible>
-			<iconColor>ffffff</iconColor>
+			<systemCarouselIconColor>ffffff</systemCarouselIconColor>
 			<systemUnfocusedItemOpacity>0.5</systemUnfocusedItemOpacity>
 			<systemUnfocusedItemDimming>1</systemUnfocusedItemDimming>
 			<gamelistUnfocusedItemOpacity>0.5</gamelistUnfocusedItemOpacity>
 			<gamelistUnfocusedItemBrightness>0</gamelistUnfocusedItemBrightness>
 			<scrollFadeIn>false</scrollFadeIn>
-			<textColor>FFFFFF</textColor>
-			<textColor2>FFFFFF</textColor2>
-			<statusBGColor>80808026</statusBGColor>
+			<systemNameTextColor>FFFFFF</systemNameTextColor>
+			<helpTextColor>FFFFFFFF</helpTextColor>
+			<helpIconColor>FFFFFFFF</helpIconColor>
+			<carouselTextColor>FFFFFF</carouselTextColor>
+			<gameNameColor>FFFFFF</gameNameColor>
+			<gameGenreColor>FFFFFF</gameGenreColor>
+			<statusBGColor>80808033</statusBGColor>
 		</variables>
     </colorScheme>
 	<colorScheme name="cyberpunk">
         <variables>
-			<folderName>monochrome</folderName>
-			<extName>png</extName>
+			<iconType>monochrome</iconType>
 			<blurBG>false</blurBG>
 			<bgCropPos>0.5 0.5</bgCropPos>
 			<gamelistImagePath>./_inc/images/cyberpunk.jpg</gamelistImagePath>
@@ -32,21 +34,24 @@
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
 			<bgLogoVisible>false</bgLogoVisible>
-			<iconColor>000000</iconColor>
+			<systemCarouselIconColor>000000</systemCarouselIconColor>
 			<systemUnfocusedItemOpacity>0.5</systemUnfocusedItemOpacity>
 			<systemUnfocusedItemDimming>1</systemUnfocusedItemDimming>
 			<gamelistUnfocusedItemOpacity>0.5</gamelistUnfocusedItemOpacity>
 			<gamelistUnfocusedItemBrightness>0</gamelistUnfocusedItemBrightness>
 			<scrollFadeIn>false</scrollFadeIn>
-			<textColor>000000</textColor>
-			<textColor2>000000</textColor2>
+			<systemNameTextColor>000000</systemNameTextColor>
+			<helpTextColor>000000FF</helpTextColor>
+			<helpIconColor>000000FF</helpIconColor>
+			<carouselTextColor>000000</carouselTextColor>
+			<gameNameColor>000000</gameNameColor>
+			<gameGenreColor>000000</gameGenreColor>
 			<statusBGColor>80808026</statusBGColor>
 		</variables>
     </colorScheme>
 	<colorScheme name="cyberpunk2">
         <variables>
-			<folderName>monochrome</folderName>
-			<extName>png</extName>
+			<iconType>monochrome</iconType>
 			<blurBG>false</blurBG>
 			<bgCropPos>0.5 0.5</bgCropPos>
 			<gamelistImagePath>./_inc/images/cyberpunk.png</gamelistImagePath>
@@ -54,21 +59,24 @@
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
 			<bgLogoVisible>false</bgLogoVisible>
-			<iconColor>c5003c</iconColor>
+			<systemCarouselIconColor>c5003c</systemCarouselIconColor>
 			<systemUnfocusedItemOpacity>0.5</systemUnfocusedItemOpacity>
 			<systemUnfocusedItemDimming>1</systemUnfocusedItemDimming>
 			<gamelistUnfocusedItemOpacity>0.5</gamelistUnfocusedItemOpacity>
 			<gamelistUnfocusedItemBrightness>0</gamelistUnfocusedItemBrightness>
 			<scrollFadeIn>false</scrollFadeIn>
-			<textColor>c5003c</textColor>
-			<textColor2>55ead4</textColor2>
-			<statusBGColor>88042540</statusBGColor>
+			<systemNameTextColor>55ead4</systemNameTextColor>
+			<helpTextColor>c5003cFF</helpTextColor>
+			<helpIconColor>55ead4FF</helpIconColor>
+			<carouselTextColor>880425</carouselTextColor>
+			<gameNameColor>55ead4</gameNameColor>
+			<gameGenreColor>c5003c</gameGenreColor>
+			<statusBGColor>8804254D</statusBGColor>
 		</variables>
     </colorScheme>
 	<colorScheme name="famicom">
         <variables>
-			<folderName>gold</folderName>
-			<extName>png</extName>
+			<iconType>gold</iconType>
 			<blurBG>false</blurBG>
 			<bgCropPos>0.5 0.5</bgCropPos>
 			<gamelistImagePath>./_inc/images/famicom-red.png</gamelistImagePath>
@@ -76,21 +84,24 @@
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
 			<bgLogoVisible>false</bgLogoVisible>
-			<iconColor>ffffff</iconColor>
+			<systemCarouselIconColor>ffffff</systemCarouselIconColor>
 			<systemUnfocusedItemOpacity>0.7</systemUnfocusedItemOpacity>
 			<systemUnfocusedItemDimming>1</systemUnfocusedItemDimming>
 			<gamelistUnfocusedItemOpacity>0.7</gamelistUnfocusedItemOpacity>
 			<gamelistUnfocusedItemBrightness>0</gamelistUnfocusedItemBrightness>
 			<scrollFadeIn>false</scrollFadeIn>
-			<textColor>c1a05b</textColor>
-			<textColor2>c1a05b</textColor2>
+			<systemNameTextColor>c1a05b</systemNameTextColor>
+			<helpTextColor>c1a05bFF</helpTextColor>
+			<helpIconColor>c1a05bFF</helpIconColor>
+			<carouselTextColor>c1a05b</carouselTextColor>
+			<gameNameColor>c1a05b</gameNameColor>
+			<gameGenreColor>c1a05b</gameGenreColor>
 			<statusBGColor>2f090eE6</statusBGColor>
 		</variables>
     </colorScheme>
 	<colorScheme name="background">
         <variables>
-			<folderName>monochrome</folderName>
-			<extName>png</extName>
+			<iconType>monochrome</iconType>
 			<blurBG>true</blurBG>
 			<bgCropPos>0.5 0.5</bgCropPos>
 			<gamelistImagePath>./_inc/systems/modern/${system.theme}.webp</gamelistImagePath>
@@ -98,34 +109,41 @@
 			<gamelistImagePathVisible>false</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>true</gamelistImageTypeVisible>
 			<bgLogoVisible>false</bgLogoVisible>
-			<iconColor>ffffff</iconColor>
+			<systemCarouselIconColor>ffffff</systemCarouselIconColor>
 			<systemUnfocusedItemOpacity>1</systemUnfocusedItemOpacity>
 			<systemUnfocusedItemDimming>0.75</systemUnfocusedItemDimming>
 			<gamelistUnfocusedItemOpacity>1</gamelistUnfocusedItemOpacity>
 			<gamelistUnfocusedItemBrightness>-1</gamelistUnfocusedItemBrightness>
 			<scrollFadeIn>true</scrollFadeIn>
-			<textColor>FFFFFF</textColor>
-			<textColor2>FFFFFF</textColor2>
-			<statusBGColor>80808026</statusBGColor>
+			<systemNameTextColor>FFFFFF</systemNameTextColor>
+			<helpTextColor>FFFFFFFF</helpTextColor>
+			<helpIconColor>FFFFFFFF</helpIconColor>
+			<carouselTextColor>FFFFFF</carouselTextColor>
+			<gameNameColor>FFFFFF</gameNameColor>
+			<gameGenreColor>FFFFFF</gameGenreColor>
+			<statusBGColor>FFFFFF26</statusBGColor>
 		</variables>
     </colorScheme>
 	<colorScheme name="wave-gray,wave-yellow,wave-lightgreen,wave-pink,wave-green,wave-purple,wave-teal,wave-blue,wave-violet,wave-orange,wave-brown,wave-red">
         <variables>
-			<folderName>monochrome</folderName>
-			<extName>png</extName>
+			<iconType>monochrome</iconType>
 			<blurBG>false</blurBG>
 			<bgCropPos>0.5 0.5</bgCropPos>
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
 			<bgLogoVisible>false</bgLogoVisible>
-			<iconColor>ffffff</iconColor>
+			<systemCarouselIconColor>ffffff</systemCarouselIconColor>
 			<systemUnfocusedItemOpacity>0.5</systemUnfocusedItemOpacity>
 			<systemUnfocusedItemDimming>1</systemUnfocusedItemDimming>
 			<gamelistUnfocusedItemOpacity>0.5</gamelistUnfocusedItemOpacity>
 			<gamelistUnfocusedItemBrightness>0</gamelistUnfocusedItemBrightness>
 			<scrollFadeIn>false</scrollFadeIn>
-			<textColor>FFFFFF</textColor>
-			<textColor2>FFFFFF</textColor2>
+			<systemNameTextColor>FFFFFF</systemNameTextColor>
+			<helpTextColor>FFFFFFFF</helpTextColor>
+			<helpIconColor>FFFFFFFF</helpIconColor>
+			<carouselTextColor>FFFFFF</carouselTextColor>
+			<gameNameColor>FFFFFF</gameNameColor>
+			<gameGenreColor>FFFFFF</gameGenreColor>
 			<statusBGColor>80808026</statusBGColor>
 		</variables>
     </colorScheme>
