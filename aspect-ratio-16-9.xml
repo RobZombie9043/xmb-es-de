@@ -1,0 +1,98 @@
+<!-- 
+16:9 aspect ratio
+-->
+<theme>
+	<view name="system, gamelist">
+		<image name="system-background-logo">
+			<pos>0.07142857 0.965</pos>
+		</image>
+		<text name="systemName, autoCollectionName, customCollectionName">
+			<pos>0.214285714 0.37</pos>
+			<size>0.175 0.09</size>	
+		</text>
+		<helpsystem name="help">
+			<entries>back,start,a,b,x,y,l,r,lt,rt,left/right,down,up,up/down,up/down/left/right,ltrt,lr</entries>
+		</helpsystem>
+		<clock name="clock">
+			<pos>0.84 0.0625</pos>
+		</clock>
+		<systemstatus name="system-status">
+			<pos>0.84 0.0825</pos>
+		</systemstatus>
+	</view>
+	<view name="system">
+		<carousel name="system-carousel">
+			<horizontalOffset>-0.285714286</horizontalOffset>
+			<maxItemCount>7</maxItemCount>
+		</carousel>
+	</view>
+	
+	<!--
+	///
+	Gamelist View
+	///
+	-->
+	<variant name="xmb-text, xmb-cover, xmb-physicalmedia, xmb-marquee">
+		<view name="gamelist">
+			<image name="background-carousel-minus-2">
+				<visible>false</visible>
+			</image>
+			<image name="background-carousel-minus-1">
+				<pos>0.07142857 0.25</pos>	
+			</image>
+			<image name="background-carousel">
+				<pos>0.21428571 0.25</pos>
+			</image>
+			<image name="background-carousel-plus-1">
+				<pos>0.35714286 0.25</pos>		
+			</image>
+			<image name="background-carousel-plus-2">
+				<pos>0.5 0.25</pos>			
+			</image>
+			<image name="background-carousel-plus-3">
+				<pos>0.64285714 0.25</pos>		
+			</image>
+			<image name="background-carousel-plus-4">
+				<pos>0.78571429 0.25</pos>
+			</image>
+			<image name="background-carousel-plus-5">
+				<pos>0.92857143 0.25</pos>	
+			</image>
+			<image name="background-carousel-plus-6">
+				<visible>false</visible>
+			</image>
+		</view>
+	</variant>
+	<variant name="xmb-text">
+		<view name="gamelist">	
+			<carousel name="game-carousel">
+				<pos>0.172135417 0</pos>
+			</carousel>
+		</view>
+	</variant>
+	
+	<variant name="xmb-cover, xmb-physicalmedia">
+		<view name="gamelist">
+			<carousel name="game-carousel">
+				<pos>0.214322917 0</pos>
+				<itemSize>0.1 0.1</itemSize>
+			</carousel>
+			<text name="game-name">
+				<pos>0.30714286 0.4585</pos>			
+			</text>
+			<text name="game-genre">
+				<pos>0.30714286 0.51</pos>		
+			</text>
+		</view>	
+	</variant>
+	
+	<variant name="xmb-marquee">
+		<view name="gamelist">
+			<carousel name="game-carousel">
+				<pos>0.214322917 0</pos>
+				<itemSize>0.15 0.08</itemSize>
+			</carousel>
+		</view>	
+	</variant>
+	
+</theme>

@@ -1,0 +1,121 @@
+<themeCapabilities>
+   
+	<themeName>XMB</themeName>
+
+	<!--
+	///
+	Aspect Ratios
+	///
+	-->
+	<aspectRatio>1:1</aspectRatio>
+	<aspectRatio>8:7</aspectRatio>
+	<aspectRatio>5:4</aspectRatio>
+	<aspectRatio>4:3</aspectRatio>
+	<aspectRatio>3:2</aspectRatio>
+	<aspectRatio>16:10</aspectRatio>
+	<aspectRatio>16:9</aspectRatio>
+	<aspectRatio>19.5:9</aspectRatio>
+	<aspectRatio>21:9</aspectRatio>
+	<!--
+	///
+	Font Sizes
+	///
+	-->
+	<fontSize>medium</fontSize>
+	<fontSize>small</fontSize>
+	<fontSize>large</fontSize> 
+	
+	<!--
+	///
+	Transitions
+	///
+	-->
+	<transitions name="transitions">
+		<label>transitions</label>
+		<selectable>false</selectable>
+		<systemToSystem>instant</systemToSystem>
+		<systemToGamelist>slide</systemToGamelist>
+		<gamelistToGamelist>slide</gamelistToGamelist>
+		<gamelistToSystem>slide</gamelistToSystem>
+		<startupToSystem>fade</startupToSystem>
+		<startupToGamelist>fade</startupToGamelist>
+	</transitions>
+	<suppressTransitionProfiles>
+		<entry>builtin-instant</entry>
+		<entry>builtin-slide</entry>
+		<entry>builtin-fade</entry>
+	</suppressTransitionProfiles>
+
+	<!--
+	///
+	Color Schemes
+	///
+	-->
+	<colorScheme name="20th-anniversary">
+		<label>PS 20th Anniversary</label>
+	</colorScheme>
+	<colorScheme name="famicom">
+		<label>Famicom</label>
+	</colorScheme>
+	<colorScheme name="background">
+		<label>Dynamic Backgrounds</label>
+	</colorScheme>
+	<colorScheme name="wave-gray">
+		<label>Wave - Gray</label>
+	</colorScheme>
+	<colorScheme name="wave-yellow">
+		<label>Wave - Yellow</label>
+	</colorScheme>
+	<colorScheme name="wave-lightgreen">
+		<label>Wave - Light Green</label>
+	</colorScheme>
+	<colorScheme name="wave-pink">
+		<label>Wave - Pink</label>
+	</colorScheme>
+	<colorScheme name="wave-green">
+		<label>Wave - Green</label>
+	</colorScheme>
+	<colorScheme name="wave-purple">
+		<label>Wave - Purple</label>
+	</colorScheme>
+	<colorScheme name="wave-teal">
+		<label>Wave - Teal</label>
+	</colorScheme>
+	<colorScheme name="wave-blue">
+		<label>Wave - Blue</label>
+	</colorScheme>
+	<colorScheme name="wave-violet">
+		<label>Wave - Violet</label>
+	</colorScheme>
+	<colorScheme name="wave-orange">
+		<label>Wave - Orange</label>
+	</colorScheme>
+	<colorScheme name="wave-brown">
+		<label>Wave - Brown</label>
+	</colorScheme>	
+	<colorScheme name="wave-red">
+		<label>Wave - Red</label>
+	</colorScheme>
+
+	<!--
+	///
+	Variants
+	///
+	-->
+	<variant name="xmb-cover">
+		<label>XMB - Covers</label>
+		<selectable>true</selectable>
+	</variant>
+	<variant name="xmb-physicalmedia">
+		<label>XMB - Physical Media</label>
+		<selectable>true</selectable>		
+	</variant>
+	<variant name="xmb-marquee">
+		<label>XMB - Marquee</label>
+		<selectable>true</selectable>		
+	</variant>
+	<variant name="xmb-text">
+		<label>XMB - Text</label>
+		<selectable>true</selectable>
+	</variant>
+</themeCapabilities>

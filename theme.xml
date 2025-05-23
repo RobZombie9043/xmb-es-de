@@ -1,0 +1,402 @@
+<!--
+theme name:    XMB
+license:       creative commons CC-BY-NC-SA
+-->
+
+<theme>
+	<include>./_inc/systems/metadata-global/_default.xml</include>
+	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+	<include>./theme-customizations/gamelist-carousel/${system.theme}.xml</include>
+	<include>./colors.xml</include>
+	
+	<variables>
+		<spacerImage>./_inc/images/space.png</spacerImage>
+		<fontRodin>./_inc/fonts/fot-rodin-pro-db.otf</fontRodin>
+	</variables>
+	
+	
+	<!--
+	///
+	System View - All
+	///
+	-->
+	<view name="system, gamelist">
+		<image name="system-blurbg">
+			<origin>0 0</origin> 
+			<pos>0 0</pos>			
+			<size>1 1</size>			
+			<path>./_inc/images/blurbg.png</path>
+			<tile>false</tile>
+			<zIndex>1.5</zIndex>
+			<visible>${blurBG}</visible>
+			<stationary>always</stationary>
+			<opacity>0.95</opacity>
+		</image>
+		<image name="system-overlay">
+			<origin>0 0</origin> 
+			<pos>0 0</pos>			
+			<size>1 1</size>			
+			<path>./_inc/images/space.png</path>
+			<tile>true</tile>
+			<zIndex>1.6</zIndex>
+			<visible>${blurBG}</visible>
+			<stationary>always</stationary>
+			<color>000000</color>
+			<opacity>0.35</opacity>
+		</image>
+		<image name="system-background-logo">
+			<origin>0.5 1</origin>
+			<maxSize>0.1 0.1</maxSize>
+			<path>./_inc/images/PS20th-logo.webp</path>
+			<visible>${bgLogoVisible}</visible>
+			<stationary>always</stationary>
+		</image>
+		<text name="systemName, autoCollectionName, customCollectionName">
+			<origin>0.5 0.5</origin> 
+			<horizontalAlignment>center</horizontalAlignment>
+			<verticalAlignment>top</verticalAlignment>
+			<fontSize>${fontSize3}</fontSize>
+			<fontPath>${fontRodin}</fontPath>
+			<lineSpacing>1.1</lineSpacing>
+			<color>${textColor}</color>
+			<stationary>always</stationary>
+		</text>
+		<text name="systemName">
+			<text>${system.fullName.noCollections}</text>
+			<letterCase>none</letterCase>
+		</text>
+		<text name="autoCollectionName">
+            <text>${system.fullName.autoCollections}</text>
+            <letterCase>capitalize</letterCase>
+        </text>
+        <text name="customCollectionName">
+            <text>${system.fullName.customCollections}</text>
+            <letterCase>none</letterCase>
+        </text>
+		<helpsystem name="help, help-menu">
+			<origin>1 1</origin>
+			<originDimmed>0.5 1</originDimmed>
+			<pos>0.985 0.955</pos>
+			<posDimmed>0.5 0.955</posDimmed>
+			<fontPath>${fontRodin}</fontPath>
+			<fontSize>${fontSize3}</fontSize>
+			<textColor>${textColor}FF</textColor>
+			<iconColor>${textColor}FF</iconColor>
+			<backgroundColor>${statusBGColor}</backgroundColor>
+			<backgroundHorizontalPadding>0.015 0.015</backgroundHorizontalPadding>
+			<backgroundVerticalPadding>0.010 0.010</backgroundVerticalPadding>
+		</helpsystem>
+		<helpsystem name="help">
+			<scope>view</scope>
+		</helpsystem>
+		<helpsystem name="help-menu">
+			<scope>menu</scope>
+			<entries>all</entries>
+		</helpsystem>
+		<clock name="clock">
+			<origin>0 1</origin>
+			<pos>0.84 0.0625</pos>
+			<fontPath>${fontRodin}</fontPath>
+			<fontSize>${fontSize3}</fontSize>
+			<format>%d/%m %H:%M</format>
+			<color>${textColor}FF</color>
+			<backgroundColor>${statusBGColor}</backgroundColor>
+			<backgroundHorizontalPadding>0.015 0.2</backgroundHorizontalPadding>
+			<backgroundVerticalPadding>0.01 0.01</backgroundVerticalPadding>
+		</clock>
+		<systemstatus name="system-status">
+			<origin>0 0</origin>
+			<pos>0.84 0.0825</pos>
+			<fontPath>${fontRodin}</fontPath>
+			<height>${fontSize3}</height>
+			<color>${textColor}FF</color>
+			<backgroundColor>${statusBGColor}</backgroundColor>
+			<backgroundHorizontalPadding>0.015 0.2</backgroundHorizontalPadding>
+			<backgroundVerticalPadding>0.01 0.01</backgroundVerticalPadding>
+		</systemstatus>
+	</view>
+		
+	<!--
+	///
+	System View
+	///
+	-->
+	<view name="system">
+		<image name="system-background">
+			<origin>0 0</origin> 
+			<pos>0 0</pos>			
+			<cropSize>1 1</cropSize>
+			<cropPos>${bgCropPos}</cropPos>
+			<default>${gamelistDefaultImagePath}</default>
+			<path>${gamelistImagePath}</path>
+			<tile>false</tile>
+			<zIndex>1</zIndex>
+			<stationary>always</stationary>
+		</image>
+		<carousel name="system-carousel">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.25</pos>
+			<size>1 1</size>
+			<type>horizontal</type>
+			<staticImage>./_inc/systems/controllers/${folderName}/${system.theme}.${extName}</staticImage>
+			<defaultImage>./_inc/systems/controllers/${folderName}/_default.${extName}</defaultImage>
+			<itemSize>0.1 0.1</itemSize>
+			<itemScale>1.5</itemScale>
+			<fastScrolling>true</fastScrolling>
+			<color>00000000</color>
+			<imageColor>FFFFFF</imageColor>
+			<unfocusedItemOpacity>${systemUnfocusedItemOpacity}</unfocusedItemOpacity>
+			<unfocusedItemDimming>${systemUnfocusedItemDimming}</unfocusedItemDimming>
+			<zIndex>5</zIndex>
+		</carousel>
+	</view>
+	
+	<!--
+	///
+	Gamelist View - All
+	///
+	-->
+	<variant name="xmb-text, xmb-cover, xmb-physicalmedia, xmb-marquee">
+		<view name="gamelist">
+			<image name="game-background, game-background2">
+				<origin>0 0</origin> 
+				<pos>0 0</pos>			
+				<cropSize>1 1</cropSize>			
+				<tile>false</tile>
+				<zIndex>1</zIndex>
+				<stationary>always</stationary>
+				<scrollFadeIn>${scrollFadeIn}</scrollFadeIn>
+			</image>
+			<image name="game-background">
+				<default>${gamelistDefaultImagePath}</default>
+				<path>${gamelistImagePath}</path>
+				<cropPos>${bgCropPos}</cropPos>
+				<visible>${gamelistImagePathVisible}</visible>
+			</image>
+			<image name="game-background2">
+				<default>${gamelistImagePath}</default>
+				<imageType>fanart, screenshot</imageType>
+				<visible>${gamelistImageTypeVisible}</visible>
+			</image>
+			<carousel name="game-carousel">
+				<origin>0.5 0</origin>
+				<size>1 1</size>
+				<type>vertical</type>
+				<itemScale>1.25</itemScale>
+				<fastScrolling>true</fastScrolling>
+				<color>00000000</color>
+				<textColor>${textColor}</textColor>
+				<lineSpacing>1.5</lineSpacing>
+				<zIndex>5</zIndex>
+			</carousel>
+			<image name="background-carousel-minus-2, background-carousel-minus-1, background-carousel, background-carousel-plus-1, background-carousel-plus-2, background-carousel-plus-3, background-carousel-plus-4, background-carousel-plus-5, background-carousel-plus-6">
+				<origin>0.5 0.5</origin> 
+				<maxSize>0.1 0.1</maxSize>			
+				<tile>false</tile>
+				<zIndex>2</zIndex>
+				<default>./_inc/systems/controllers/${folderName}/_default.${extName}</default>
+				<stationary>always</stationary>
+				<interpolation>nearest</interpolation>
+				<opacity>${gamelistUnfocusedItemOpacity}</opacity>
+				<brightness>${gamelistUnfocusedItemBrightness}</brightness>
+			</image>
+			<image name="background-carousel-minus-2">
+				<path>./_inc/systems/controllers/${folderName}/${systemMinus2}.${extName}</path>
+			</image>
+			<image name="background-carousel-minus-1">
+				<path>./_inc/systems/controllers/${folderName}/${systemMinus1}.${extName}</path>
+			</image>
+			<image name="background-carousel">
+				<maxSize>0.15 0.15</maxSize>				
+				<path>./_inc/systems/controllers/${folderName}/${system.theme}.${extName}</path>
+				<opacity>1</opacity>
+				<brightness>0</brightness>
+				<zIndex>99</zIndex>
+			</image>
+			<image name="background-carousel-plus-1">		
+				<path>./_inc/systems/controllers/${folderName}/${systemPlus1}.${extName}</path>
+			</image>
+			<image name="background-carousel-plus-2">
+				<path>./_inc/systems/controllers/${folderName}/${systemPlus2}.${extName}</path>
+			</image>
+			<image name="background-carousel-plus-3">
+				<path>./_inc/systems/controllers/${folderName}/${systemPlus3}.${extName}</path>
+			</image>
+			<image name="background-carousel-plus-4">
+				<path>./_inc/systems/controllers/${folderName}/${systemPlus4}.${extName}</path>
+			</image>
+			<image name="background-carousel-plus-5">
+				<path>./_inc/systems/controllers/${folderName}/${systemPlus5}.${extName}</path>
+			</image>
+			<image name="background-carousel-plus-6">
+				<path>./_inc/systems/controllers/${folderName}/${systemPlus6}.${extName}</path>
+			</image>
+		</view>
+	</variant>
+	
+	<!--
+	///
+	Gamelist View - Cover and Physical Media
+	///
+	-->
+	<variant name="xmb-cover, xmb-physicalmedia">
+		<view name="gamelist">
+			<carousel name="game-carousel">
+				<itemHorizontalAlignment>center</itemHorizontalAlignment>
+				<selectedItemMargins>0.255 0.05</selectedItemMargins>
+				<verticalOffset>-0.025</verticalOffset>
+				<maxItemCount>9</maxItemCount>
+				<fontSize>${fontSize4}</fontSize>
+				<fontPath>${fontRodin}</fontPath>
+				<unfocusedItemOpacity>0.9</unfocusedItemOpacity>
+				<unfocusedItemDimming>0.6</unfocusedItemDimming>
+			</carousel>
+			<text name="game-name">
+				<origin>0 0.5</origin> 
+				<horizontalAlignment>left</horizontalAlignment>
+				<verticalAlignment>center</verticalAlignment>
+				<size>0.5 0.07</size>
+				<metadata>name</metadata>
+				<fontSize>${fontSize1}</fontSize>
+				<fontPath>${fontRodin}</fontPath>
+				<lineSpacing>1.3</lineSpacing>
+				<container>true</container>
+				<containerType>horizontal</containerType>
+				<color>${textColor}</color>
+				<stationary>withinView</stationary>	
+			</text>
+			<text name="game-genre">
+				<origin>0 0.5</origin> 
+				<horizontalAlignment>left</horizontalAlignment>
+				<verticalAlignment>center</verticalAlignment>
+				<size>0.5 0.06</size>
+				<metadata>genre</metadata>
+				<fontSize>${fontSize3}</fontSize>
+				<fontPath>${fontRodin}</fontPath>
+				<lineSpacing>1.1</lineSpacing>
+				<color>${textColor}</color>
+				<stationary>withinView</stationary>	
+			</text>
+		</view>	
+	</variant>
+	
+	<!--
+	///
+	Gamelist View - Cover
+	///
+	-->
+	<variant name="xmb-cover">
+		<view name="gamelist">
+			<carousel name="game-carousel">
+				<imageType>cover</imageType>
+			</carousel>
+		</view>	
+	</variant>
+	
+	<!--
+	///
+	Gamelist View - Physical Media
+	///
+	-->
+	<variant name="xmb-physicalmedia">
+		<view name="gamelist">
+			<carousel name="game-carousel">
+				<imageType>physicalmedia</imageType>
+			</carousel>
+		</view>	
+	</variant>
+	
+	<!--
+	///
+	Gamelist View - Marquee
+	///
+	-->
+	<variant name="xmb-marquee">
+		<view name="gamelist">
+			<carousel name="game-carousel">
+				<itemHorizontalAlignment>center</itemHorizontalAlignment>
+				<imageType>marquee</imageType>
+				<selectedItemMargins>0.255 0.05</selectedItemMargins>
+				<verticalOffset>-0.025</verticalOffset>
+				<maxItemCount>9</maxItemCount>
+				<fontSize>${fontSize4}</fontSize>
+				<fontPath>${fontRodin}</fontPath>
+				<lineSpacing>1.2</lineSpacing>
+				<unfocusedItemOpacity>0.9</unfocusedItemOpacity>
+				<unfocusedItemDimming>0.6</unfocusedItemDimming>
+				<textHorizontalScrolling>false</textHorizontalScrolling>
+			</carousel>
+		</view>	
+	</variant>
+
+	<!--
+	///
+	Gamelist View - Text
+	///
+	-->
+	<variant name="xmb-text">
+		<view name="gamelist">	
+			<carousel name="game-carousel">
+				<origin>0 0</origin>
+				<size>1 0.9</size>
+				<itemHorizontalAlignment>left</itemHorizontalAlignment>
+				<selectedItemMargins>0.235 0.02</selectedItemMargins>
+				<imageType>none</imageType>
+				<verticalOffset>-0.015</verticalOffset>
+				<maxItemCount>11</maxItemCount>
+				<itemSize>0.5 0.1</itemSize>
+				<fontSize>${fontSize2}</fontSize>
+				<fontPath>${fontRodin}</fontPath>
+				<itemScale>1.5</itemScale>
+				<unfocusedItemOpacity>0.5</unfocusedItemOpacity>
+				<textHorizontalScrolling>true</textHorizontalScrolling>
+			</carousel>
+		</view>
+	</variant>
+	
+	<!--
+	///
+	Aspect Ratios
+	///
+	-->
+	<aspectRatio name="1:1, 5:4, 4:3, 8:7">
+		<include>./aspect-ratio-1-1.xml</include>
+	</aspectRatio>
+	<aspectRatio name="16:9, 3:2, 16:10">
+		<include>./aspect-ratio-16-9.xml</include>
+	</aspectRatio>
+	<aspectRatio name="21:9, 19.5:9">
+		<include>./aspect-ratio-21-9.xml</include>
+	</aspectRatio>
+	
+	<!--
+	///
+	Font Size
+	///
+	-->
+	<fontSize name="small">
+		<variables>
+			<fontSize1>0.04</fontSize1> 
+			<fontSize2>0.027</fontSize2>
+			<fontSize3>0.018</fontSize3>
+			<fontSize4>0.018</fontSize4>
+		</variables>
+	</fontSize>
+	<fontSize name="medium">
+		<variables>
+			<fontSize1>0.05</fontSize1> 
+			<fontSize2>0.035</fontSize2>
+			<fontSize3>0.0225</fontSize3>
+			<fontSize4>0.018</fontSize4>
+		</variables>
+	</fontSize>
+	<fontSize name="large">
+		<variables>
+			<fontSize1>0.06</fontSize1> 
+			<fontSize2>0.042</fontSize2>
+			<fontSize3>0.027</fontSize3>
+			<fontSize4>0.018</fontSize4>
+		</variables>
+	</fontSize>
+	
+</theme>

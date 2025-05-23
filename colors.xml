@@ -1,0 +1,152 @@
+<theme>
+	<colorScheme name="20th-anniversary">
+        <variables>
+			<folderName>20th-anniversary</folderName>
+			<extName>png</extName>
+			<blurBG>false</blurBG>
+			<bgCropPos>0.85 0.5</bgCropPos>
+			<gamelistImagePath>./_inc/images/PS20th.webp</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/PS20th.webp</gamelistDefaultImagePath>
+			<gamelistImagePathVisible>true</gamelistImagePathVisible>
+			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
+			<bgLogoVisible>true</bgLogoVisible>
+			<systemUnfocusedItemOpacity>0.5</systemUnfocusedItemOpacity>
+			<systemUnfocusedItemDimming>1</systemUnfocusedItemDimming>
+			<gamelistUnfocusedItemOpacity>0.5</gamelistUnfocusedItemOpacity>
+			<gamelistUnfocusedItemBrightness>0</gamelistUnfocusedItemBrightness>
+			<scrollFadeIn>false</scrollFadeIn>
+			<textColor>FFFFFF</textColor>
+			<statusBGColor>80808026</statusBGColor>
+		</variables>
+    </colorScheme>
+	<colorScheme name="famicom">
+        <variables>
+			<folderName>gold</folderName>
+			<extName>png</extName>
+			<blurBG>false</blurBG>
+			<bgCropPos>0.5 0.5</bgCropPos>
+			<gamelistImagePath>./_inc/images/famicom-red.png</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/famicom-red.png</gamelistDefaultImagePath>
+			<gamelistImagePathVisible>true</gamelistImagePathVisible>
+			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
+			<bgLogoVisible>false</bgLogoVisible>
+			<systemUnfocusedItemOpacity>0.7</systemUnfocusedItemOpacity>
+			<systemUnfocusedItemDimming>1</systemUnfocusedItemDimming>
+			<gamelistUnfocusedItemOpacity>0.7</gamelistUnfocusedItemOpacity>
+			<gamelistUnfocusedItemBrightness>0</gamelistUnfocusedItemBrightness>
+			<scrollFadeIn>false</scrollFadeIn>
+			<textColor>c1a05b</textColor>
+			<statusBGColor>2f090eE6</statusBGColor>
+		</variables>
+    </colorScheme>
+	<colorScheme name="background">
+        <variables>
+			<folderName>monochrome</folderName>
+			<extName>png</extName>
+			<blurBG>true</blurBG>
+			<bgCropPos>0.5 0.5</bgCropPos>
+			<gamelistImagePath>./_inc/systems/modern/${system.theme}.webp</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/systems/modern/_default.webp</gamelistDefaultImagePath>
+			<gamelistImagePathVisible>false</gamelistImagePathVisible>
+			<gamelistImageTypeVisible>true</gamelistImageTypeVisible>
+			<bgLogoVisible>false</bgLogoVisible>
+			<systemUnfocusedItemOpacity>1</systemUnfocusedItemOpacity>
+			<systemUnfocusedItemDimming>0.75</systemUnfocusedItemDimming>
+			<gamelistUnfocusedItemOpacity>1</gamelistUnfocusedItemOpacity>
+			<gamelistUnfocusedItemBrightness>-1</gamelistUnfocusedItemBrightness>
+			<scrollFadeIn>true</scrollFadeIn>
+			<textColor>FFFFFF</textColor>
+			<statusBGColor>80808026</statusBGColor>
+		</variables>
+    </colorScheme>
+	<colorScheme name="wave-gray,wave-yellow,wave-lightgreen,wave-pink,wave-green,wave-purple,wave-teal,wave-blue,wave-violet,wave-orange,wave-brown,wave-red">
+        <variables>
+			<folderName>monochrome</folderName>
+			<extName>png</extName>
+			<blurBG>false</blurBG>
+			<bgCropPos>0.5 0.5</bgCropPos>
+			<gamelistImagePathVisible>true</gamelistImagePathVisible>
+			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
+			<bgLogoVisible>false</bgLogoVisible>
+			<systemUnfocusedItemOpacity>0.5</systemUnfocusedItemOpacity>
+			<systemUnfocusedItemDimming>1</systemUnfocusedItemDimming>
+			<gamelistUnfocusedItemOpacity>0.5</gamelistUnfocusedItemOpacity>
+			<gamelistUnfocusedItemBrightness>0</gamelistUnfocusedItemBrightness>
+			<scrollFadeIn>false</scrollFadeIn>
+			<textColor>FFFFFF</textColor>
+			<statusBGColor>80808026</statusBGColor>
+		</variables>
+    </colorScheme>
+	<colorScheme name="wave-gray">
+		<variables>
+			<gamelistImagePath>./_inc/images/XMB colorized/background-gray (January).webp</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/XMB colorized/background-gray (January).webp</gamelistDefaultImagePath>
+		</variables>
+	</colorScheme>
+	<colorScheme name="wave-yellow">
+		<variables>
+			<gamelistImagePath>./_inc/images/XMB colorized/background-yellow (February).webp</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/XMB colorized/background-yellow (February).webp</gamelistDefaultImagePath>
+		</variables>
+	</colorScheme>
+	<colorScheme name="wave-lightgreen">
+		<variables>
+			<gamelistImagePath>./_inc/images/XMB colorized/background-lightgreen (March).webp</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/XMB colorized/background-lightgreen (March).webp</gamelistDefaultImagePath>
+		</variables>
+	</colorScheme>
+	<colorScheme name="wave-pink">
+		<variables>
+			<gamelistImagePath>./_inc/images/XMB colorized/background-pink (April).webp</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/XMB colorized/background-pink (April).webp</gamelistDefaultImagePath>
+		</variables>
+	</colorScheme>
+	<colorScheme name="wave-green">
+		<variables>
+			<gamelistImagePath>./_inc/images/XMB colorized/background-green (May).webp</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/XMB colorized/background-green (May).webp</gamelistDefaultImagePath>
+		</variables>
+	</colorScheme>
+	<colorScheme name="wave-purple">
+		<variables>
+			<gamelistImagePath>./_inc/images/XMB colorized/background-purple (June).webp</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/XMB colorized/background-purple (June).webp</gamelistDefaultImagePath>
+		</variables>
+	</colorScheme>
+	<colorScheme name="wave-teal">
+		<variables>
+			<gamelistImagePath>./_inc/images/XMB colorized/background-teal (July).webp</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/XMB colorized/background-teal (July).webp</gamelistDefaultImagePath>
+		</variables>
+	</colorScheme>
+	<colorScheme name="wave-blue">
+		<variables>
+			<gamelistImagePath>./_inc/images/XMB colorized/background-blue (August).webp</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/XMB colorized/background-blue (August).webp</gamelistDefaultImagePath>
+		</variables>
+	</colorScheme>
+	<colorScheme name="wave-violet">
+		<variables>
+			<gamelistImagePath>./_inc/images/XMB colorized/background-violet (September).webp</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/XMB colorized/background-violet (September).webp</gamelistDefaultImagePath>
+		</variables>
+	</colorScheme>
+	<colorScheme name="wave-orange">
+		<variables>
+			<gamelistImagePath>./_inc/images/XMB colorized/background-orange (October).webp</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/XMB colorized/background-orange (October).webp</gamelistDefaultImagePath>
+		</variables>
+	</colorScheme>
+	<colorScheme name="wave-brown">
+		<variables>
+			<gamelistImagePath>./_inc/images/XMB colorized/background-brown (November).webp</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/XMB colorized/background-brown (November).webp</gamelistDefaultImagePath>
+		</variables>
+	</colorScheme>	
+	<colorScheme name="wave-red">
+		<variables>
+			<gamelistImagePath>./_inc/images/XMB colorized/background-red (December).webp</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/XMB colorized/background-red (December).webp</gamelistDefaultImagePath>
+		</variables>
+	</colorScheme>
+</theme>
