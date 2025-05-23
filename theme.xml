@@ -58,7 +58,7 @@ license:       creative commons CC-BY-NC-SA
 			<fontSize>${fontSize3}</fontSize>
 			<fontPath>${fontRodin}</fontPath>
 			<lineSpacing>1.1</lineSpacing>
-			<color>${textColor}</color>
+			<color>${textColor2}</color>
 			<stationary>always</stationary>
 		</text>
 		<text name="systemName">
@@ -81,7 +81,7 @@ license:       creative commons CC-BY-NC-SA
 			<fontPath>${fontRodin}</fontPath>
 			<fontSize>${fontSize3}</fontSize>
 			<textColor>${textColor}FF</textColor>
-			<iconColor>${textColor}FF</iconColor>
+			<iconColor>${textColor2}FF</iconColor>
 			<backgroundColor>${statusBGColor}</backgroundColor>
 			<backgroundHorizontalPadding>0.015 0.015</backgroundHorizontalPadding>
 			<backgroundVerticalPadding>0.0125 0.0125</backgroundVerticalPadding>
@@ -107,7 +107,7 @@ license:       creative commons CC-BY-NC-SA
 			<origin>0 0</origin>
 			<fontPath>${fontRodin}</fontPath>
 			<height>${fontSize3}</height>
-			<color>${textColor}FF</color>
+			<color>${textColor2}FF</color>
 			<backgroundColor>${statusBGColor}</backgroundColor>
 			<backgroundHorizontalPadding>0.015 0.2</backgroundHorizontalPadding>
 			<backgroundVerticalPadding>0.0125 0.0125</backgroundVerticalPadding>
@@ -142,7 +142,7 @@ license:       creative commons CC-BY-NC-SA
 			<itemScale>1.5</itemScale>
 			<fastScrolling>true</fastScrolling>
 			<color>00000000</color>
-			<imageColor>FFFFFF</imageColor>
+			<imageColor>${iconColor}</imageColor>
 			<unfocusedItemOpacity>${systemUnfocusedItemOpacity}</unfocusedItemOpacity>
 			<unfocusedItemDimming>${systemUnfocusedItemDimming}</unfocusedItemDimming>
 			<zIndex>5</zIndex>
@@ -194,7 +194,8 @@ license:       creative commons CC-BY-NC-SA
 				<zIndex>2</zIndex>
 				<default>./_inc/systems/controllers/${folderName}/_default.${extName}</default>
 				<stationary>always</stationary>
-				<interpolation>nearest</interpolation>
+				<interpolation>linear</interpolation>
+				<color>${iconColor}</color>
 				<opacity>${gamelistUnfocusedItemOpacity}</opacity>
 				<brightness>${gamelistUnfocusedItemBrightness}</brightness>
 			</image>
@@ -260,7 +261,7 @@ license:       creative commons CC-BY-NC-SA
 				<lineSpacing>1.3</lineSpacing>
 				<container>true</container>
 				<containerType>horizontal</containerType>
-				<color>${textColor}</color>
+				<color>${textColor2}</color>
 				<stationary>withinView</stationary>	
 			</text>
 			<text name="game-genre">
@@ -345,6 +346,7 @@ license:       creative commons CC-BY-NC-SA
 				<itemSize>0.5 0.1</itemSize>
 				<fontSize>${fontSize2}</fontSize>
 				<fontPath>${fontRodin}</fontPath>
+				<textColor>${textColor}</textColor>
 				<itemScale>1.5</itemScale>
 				<unfocusedItemOpacity>0.5</unfocusedItemOpacity>
 				<textHorizontalScrolling>true</textHorizontalScrolling>

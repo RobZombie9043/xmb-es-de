@@ -54,6 +54,12 @@
 	<colorScheme name="20th-anniversary">
 		<label>PS 20th Anniversary</label>
 	</colorScheme>
+	<colorScheme name="cyberpunk">
+		<label>Cyberpunk</label>
+	</colorScheme>
+	<colorScheme name="cyberpunk2">
+		<label>Cyberpunk 2</label>
+	</colorScheme>
 	<colorScheme name="famicom">
 		<label>Famicom</label>
 	</colorScheme>

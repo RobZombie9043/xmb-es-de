@@ -10,13 +10,59 @@
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
 			<bgLogoVisible>false</bgLogoVisible>
+			<iconColor>ffffff</iconColor>
 			<systemUnfocusedItemOpacity>0.5</systemUnfocusedItemOpacity>
 			<systemUnfocusedItemDimming>1</systemUnfocusedItemDimming>
 			<gamelistUnfocusedItemOpacity>0.5</gamelistUnfocusedItemOpacity>
 			<gamelistUnfocusedItemBrightness>0</gamelistUnfocusedItemBrightness>
 			<scrollFadeIn>false</scrollFadeIn>
 			<textColor>FFFFFF</textColor>
+			<textColor2>FFFFFF</textColor2>
 			<statusBGColor>80808026</statusBGColor>
+		</variables>
+    </colorScheme>
+	<colorScheme name="cyberpunk">
+        <variables>
+			<folderName>monochrome</folderName>
+			<extName>png</extName>
+			<blurBG>false</blurBG>
+			<bgCropPos>0.5 0.5</bgCropPos>
+			<gamelistImagePath>./_inc/images/cyberpunk.jpg</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/cyberpunk.jpg</gamelistDefaultImagePath>
+			<gamelistImagePathVisible>true</gamelistImagePathVisible>
+			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
+			<bgLogoVisible>false</bgLogoVisible>
+			<iconColor>000000</iconColor>
+			<systemUnfocusedItemOpacity>0.5</systemUnfocusedItemOpacity>
+			<systemUnfocusedItemDimming>1</systemUnfocusedItemDimming>
+			<gamelistUnfocusedItemOpacity>0.5</gamelistUnfocusedItemOpacity>
+			<gamelistUnfocusedItemBrightness>0</gamelistUnfocusedItemBrightness>
+			<scrollFadeIn>false</scrollFadeIn>
+			<textColor>000000</textColor>
+			<textColor2>000000</textColor2>
+			<statusBGColor>80808026</statusBGColor>
+		</variables>
+    </colorScheme>
+	<colorScheme name="cyberpunk2">
+        <variables>
+			<folderName>monochrome</folderName>
+			<extName>png</extName>
+			<blurBG>false</blurBG>
+			<bgCropPos>0.5 0.5</bgCropPos>
+			<gamelistImagePath>./_inc/images/cyberpunk.png</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/images/cyberpunk.png</gamelistDefaultImagePath>
+			<gamelistImagePathVisible>true</gamelistImagePathVisible>
+			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
+			<bgLogoVisible>false</bgLogoVisible>
+			<iconColor>c5003c</iconColor>
+			<systemUnfocusedItemOpacity>0.5</systemUnfocusedItemOpacity>
+			<systemUnfocusedItemDimming>1</systemUnfocusedItemDimming>
+			<gamelistUnfocusedItemOpacity>0.5</gamelistUnfocusedItemOpacity>
+			<gamelistUnfocusedItemBrightness>0</gamelistUnfocusedItemBrightness>
+			<scrollFadeIn>false</scrollFadeIn>
+			<textColor>c5003c</textColor>
+			<textColor2>55ead4</textColor2>
+			<statusBGColor>88042540</statusBGColor>
 		</variables>
     </colorScheme>
 	<colorScheme name="famicom">
@@ -30,12 +76,14 @@
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
 			<bgLogoVisible>false</bgLogoVisible>
+			<iconColor>ffffff</iconColor>
 			<systemUnfocusedItemOpacity>0.7</systemUnfocusedItemOpacity>
 			<systemUnfocusedItemDimming>1</systemUnfocusedItemDimming>
 			<gamelistUnfocusedItemOpacity>0.7</gamelistUnfocusedItemOpacity>
 			<gamelistUnfocusedItemBrightness>0</gamelistUnfocusedItemBrightness>
 			<scrollFadeIn>false</scrollFadeIn>
 			<textColor>c1a05b</textColor>
+			<textColor2>c1a05b</textColor2>
 			<statusBGColor>2f090eE6</statusBGColor>
 		</variables>
     </colorScheme>
@@ -50,12 +98,14 @@
 			<gamelistImagePathVisible>false</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>true</gamelistImageTypeVisible>
 			<bgLogoVisible>false</bgLogoVisible>
+			<iconColor>ffffff</iconColor>
 			<systemUnfocusedItemOpacity>1</systemUnfocusedItemOpacity>
 			<systemUnfocusedItemDimming>0.75</systemUnfocusedItemDimming>
 			<gamelistUnfocusedItemOpacity>1</gamelistUnfocusedItemOpacity>
 			<gamelistUnfocusedItemBrightness>-1</gamelistUnfocusedItemBrightness>
 			<scrollFadeIn>true</scrollFadeIn>
 			<textColor>FFFFFF</textColor>
+			<textColor2>FFFFFF</textColor2>
 			<statusBGColor>80808026</statusBGColor>
 		</variables>
     </colorScheme>
@@ -68,12 +118,14 @@
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
 			<bgLogoVisible>false</bgLogoVisible>
+			<iconColor>ffffff</iconColor>
 			<systemUnfocusedItemOpacity>0.5</systemUnfocusedItemOpacity>
 			<systemUnfocusedItemDimming>1</systemUnfocusedItemDimming>
 			<gamelistUnfocusedItemOpacity>0.5</gamelistUnfocusedItemOpacity>
 			<gamelistUnfocusedItemBrightness>0</gamelistUnfocusedItemBrightness>
 			<scrollFadeIn>false</scrollFadeIn>
 			<textColor>FFFFFF</textColor>
+			<textColor2>FFFFFF</textColor2>
 			<statusBGColor>80808026</statusBGColor>
 		</variables>
     </colorScheme>
