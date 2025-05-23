@@ -35,9 +35,9 @@
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
 			<bgLogoVisible>false</bgLogoVisible>
 			<systemCarouselIconColor>000000</systemCarouselIconColor>
-			<systemUnfocusedItemOpacity>0.7</systemUnfocusedItemOpacity>
+			<systemUnfocusedItemOpacity>0.5</systemUnfocusedItemOpacity>
 			<systemUnfocusedItemDimming>1</systemUnfocusedItemDimming>
-			<gamelistUnfocusedItemOpacity>0.7</gamelistUnfocusedItemOpacity>
+			<gamelistUnfocusedItemOpacity>0.5</gamelistUnfocusedItemOpacity>
 			<gamelistUnfocusedItemBrightness>0</gamelistUnfocusedItemBrightness>
 			<scrollFadeIn>false</scrollFadeIn>
 			<systemNameTextColor>000000</systemNameTextColor>
