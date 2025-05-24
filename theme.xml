@@ -253,7 +253,7 @@ license:       creative commons CC-BY-NC-SA
 			<carousel name="game-carousel">
 				<itemHorizontalAlignment>center</itemHorizontalAlignment>
 				<selectedItemMargins>0.255 0.05</selectedItemMargins>
-				<verticalOffset>-0.025</verticalOffset>
+				<verticalOffset>-0.015</verticalOffset>
 				<maxItemCount>${maxItemCountCarousel}</maxItemCount>
 				<fontSize>${fontSize4}</fontSize>
 				<fontPath>${fontRodin}</fontPath>
@@ -326,7 +326,7 @@ license:       creative commons CC-BY-NC-SA
 				<itemHorizontalAlignment>center</itemHorizontalAlignment>
 				<imageType>marquee</imageType>
 				<selectedItemMargins>0.255 0.05</selectedItemMargins>
-				<verticalOffset>-0.025</verticalOffset>
+				<verticalOffset>-0.015</verticalOffset>
 				<maxItemCount>${maxItemCountCarousel}</maxItemCount>
 				<fontSize>${fontSize4}</fontSize>
 				<fontPath>${fontRodin}</fontPath>
