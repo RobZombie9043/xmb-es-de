@@ -55,6 +55,7 @@ license:       creative commons CC-BY-NC-SA
 			<origin>0 0</origin> 
 			<pos>0 0</pos>			
 			<cropSize>1 1</cropSize>
+			<cropPos>0.5 1</cropPos>
 			<path>./_inc/images/cyberpunk-frame.png</path>
 			<visible>${bgFrameVisible}</visible>
 			<stationary>always</stationary>

@@ -29,7 +29,7 @@
         <variables>
 			<iconType>monochrome</iconType>
 			<blurBG>false</blurBG>
-			<bgCropPos>0.5 0.5</bgCropPos>
+			<bgCropPos>0.5 1</bgCropPos>
 			<gamelistImagePath>./_inc/images/cyberpunk.jpg</gamelistImagePath>
 			<gamelistDefaultImagePath>./_inc/images/cyberpunk.jpg</gamelistDefaultImagePath>
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
