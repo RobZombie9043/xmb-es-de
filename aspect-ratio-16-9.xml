@@ -7,8 +7,8 @@
 			<pos>0.07142857 0.965</pos>
 		</image>
 		<text name="systemName, autoCollectionName, customCollectionName">
-			<pos>0.214285714 0.37</pos>
-			<size>0.175 0.09</size>	
+			<pos>0.214285714 0.355</pos>
+			<size>0.175 0.06</size>	
 		</text>
 		<helpsystem name="help">
 			<entries>back,start,a,b,x,y,l,r,lt,rt,left/right,down,up,up/down,up/down/left/right,ltrt,lr</entries>
@@ -75,7 +75,7 @@
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<pos>0.214322917 0</pos>
-				<itemSize>0.1 0.1</itemSize>
+				<itemSize>0.12 ${itemSizeCarouselHeight}</itemSize>
 			</carousel>
 			<text name="game-name">
 				<pos>0.30714286 0.4585</pos>			
