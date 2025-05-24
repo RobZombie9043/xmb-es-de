@@ -90,7 +90,7 @@
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<pos>0.3 0</pos>
-				<itemSize>0.2 0.07</itemSize>
+				<itemSize>0.2 ${itemSizeMarqueeHeight}</itemSize>
 			</carousel>
 		</view>	
 	</variant>

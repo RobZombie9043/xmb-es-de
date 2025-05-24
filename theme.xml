@@ -327,7 +327,7 @@ license:       creative commons CC-BY-NC-SA
 				<imageType>marquee</imageType>
 				<selectedItemMargins>0.255 0.05</selectedItemMargins>
 				<verticalOffset>-0.025</verticalOffset>
-				<maxItemCount>9</maxItemCount>
+				<maxItemCount>${maxItemCountCarousel}</maxItemCount>
 				<fontSize>${fontSize4}</fontSize>
 				<fontPath>${fontRodin}</fontPath>
 				<lineSpacing>1.2</lineSpacing>
@@ -392,6 +392,7 @@ license:       creative commons CC-BY-NC-SA
 			<fontSize4>0.018</fontSize4>
 			<maxItemCountCarousel>9</maxItemCountCarousel>
 			<itemSizeCarouselHeight>0.1025</itemSizeCarouselHeight>
+			<itemSizeMarqueeHeight>0.08</itemSizeMarqueeHeight>
 		</variables>
 	</fontSize>
 	<fontSize name="medium">
@@ -402,6 +403,7 @@ license:       creative commons CC-BY-NC-SA
 			<fontSize4>0.018</fontSize4>
 			<maxItemCountCarousel>8</maxItemCountCarousel>
 			<itemSizeCarouselHeight>0.1175</itemSizeCarouselHeight>
+			<itemSizeMarqueeHeight>0.1</itemSizeMarqueeHeight>
 		</variables>
 	</fontSize>
 	<fontSize name="large">
@@ -412,6 +414,7 @@ license:       creative commons CC-BY-NC-SA
 			<fontSize4>0.018</fontSize4>
 			<maxItemCountCarousel>7</maxItemCountCarousel>
 			<itemSizeCarouselHeight>0.135</itemSizeCarouselHeight>
+			<itemSizeMarqueeHeight>0.12</itemSizeMarqueeHeight>
 		</variables>
 	</fontSize>
 	
