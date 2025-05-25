@@ -458,7 +458,7 @@ class SystemTransferApp:
         if any(d["name"] == name for d in self.custom_collections):
             self.add_custom_collection_entry.delete(0, tk.END)
             return
-        new_col = {"name": name, "systemsortname": f"custom-{name}"}
+        new_col = {"name": name, "systemsortname": name}
         self.custom_collections.append(new_col)
         self.add_custom_collection_entry.delete(0, tk.END)
         self.refresh_tables()
