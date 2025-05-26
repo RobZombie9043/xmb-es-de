@@ -1,6 +1,7 @@
 import os
 import tkinter as tk
 from tkinter import ttk
+from tkinter import filedialog
 import xml.etree.ElementTree as ET
 import xml.dom.minidom as minidom
 
@@ -359,12 +360,85 @@ class SystemTransferApp:
 
         self.refresh_tables()
         
+        from tkinter import filedialog  # Add this at the top if not already imported
+
         export_frame = tk.Frame(self.root)
         export_frame.grid(row=2, column=0, columnspan=4, pady=(5, 15))
 
+        # New button: Import es_log.txt
+        import_log_btn = tk.Button(export_frame, text="Import es_log.txt", font=("TkDefaultFont", 10, "bold"), command=self.import_es_log)
+        import_log_btn.pack(side="left", padx=(0, 20))  # Add padding to separate from Export
+
+        # Existing Export XML button
         export_btn = tk.Button(export_frame, text="Export XML", font=("TkDefaultFont", 10, "bold"), command=self.export_xml)
-        export_btn.pack()
+        export_btn.pack(side="left")
         
+    def import_es_log(self):
+        filepath = filedialog.askopenfilename(
+            title="Select es_log.txt file",
+            filetypes=[("Log files", "*.txt"), ("All files", "*.*")]
+        )
+        if not filepath:
+            return  # User cancelled
+        print(f"Selected es_log.txt path: {filepath}")
+        
+        with open(filepath, "r", encoding="utf-8") as file:
+            lines = file.readlines()
+
+        found_system_names = []
+        found_custom_systems = []
+        found_custom_collections = []
+
+        for line in lines:
+            if 'ViewController::preload(): Populating gamelist for system "' in line:
+                start = line.find('"') + 1
+                end = line.find('"', start)
+                name = line[start:end].strip()
+
+                if name == "collections":
+                    self.var_groupcustom.set(True)
+                elif name == "all":
+                    self.var_allgames.set(True)
+                elif name == "favorites":
+                    self.var_favorites.set(True)
+                elif name == "recent":
+                    self.var_lastplayed.set(True)
+                else:
+                    if name not in found_system_names and name not in found_custom_systems:
+                        match = next((s for s in self.original_left_data if s["name"] == name), None)
+                        if match:
+                            found_system_names.append(name)
+                        else:
+                            found_custom_systems.append(name)
+
+            elif 'ViewController::preload(): Populating gamelist for custom collection "' in line:
+                start = line.find('"') + 1
+                end = line.find('"', start)
+                name = line[start:end].strip()
+                if name not in found_custom_collections:
+                    found_custom_collections.append(name)
+
+        # Add matched known systems in log order
+        for name in found_system_names:
+            if not any(s["name"] == name for s in self.right_data):
+                match = next((s for s in self.original_left_data if s["name"] == name), None)
+                if match:
+                    self.right_data.append(match)
+
+        # Add custom systems in log order
+        for name in found_custom_systems:
+            if not any(s["name"] == name for s in self.right_data) and not any(s["name"] == name for s in self.custom_systems):
+                new_sys = {"fullname": name, "name": name, "manufacturer": "", "hardwareType": "", "releaseYear": ""}
+                self.custom_systems.append(new_sys)
+                self.right_data.append(new_sys)
+
+        # Add custom collections in log order
+        for name in found_custom_collections:
+            if not any(c["name"] == name for c in self.custom_collections):
+                self.custom_collections.append({"name": name, "systemsortname": name})
+
+        self.refresh_tables()
+    
     def export_xml(self):
         os.makedirs("theme-customizations", exist_ok=True)
         os.makedirs("theme-customizations/gamelist-carousel", exist_ok=True)
