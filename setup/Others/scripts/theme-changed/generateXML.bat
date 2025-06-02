@@ -10,4 +10,4 @@ if errorlevel 1 (
 )
 
 REM Run the Python script located two levels up in themes\xmb-es-de
-python "..\..\themes\xmb-es-de\generate_xml.py"
+python "..\..\themes\xmb-es-de\seteup\generate_xml.py"
