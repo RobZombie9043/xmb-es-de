@@ -1,4 +1,4 @@
-#!/system/bin/sh
+#!/usr/bin/env sh
 
 # Determine the script's base directory
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
