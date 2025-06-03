@@ -1,6 +1,6 @@
 # xmb-es-de
 
-A custom theme for **EmulationStation Desktop Edition (ES-DE)** designed to emulate the classic **XcrossMediaBar (XMB)** style interface.
+A custom theme for **EmulationStation Desktop Edition (ES-DE)** designed to emulate the classic **XrossMediaBar (XMB)** style interface.
 
 > ⚠️ **Important:** This theme requires extra setup to function correctly due to limitations in the ES-DE theme engine.  
 > ES-DE does **not** natively support a system carousel in the gamelist view.  
