@@ -13,7 +13,7 @@ A custom theme for **EmulationStation Desktop Edition (ES-DE)** designed to emul
 |----|----|----|
 |![Screenshot_20250603-132709](https://github.com/user-attachments/assets/05d9dbf7-ff24-49c0-aa40-7dc89ee7ae4f)|![Screenshot_20250603-132855](https://github.com/user-attachments/assets/7a6a488d-baa7-4afc-a5a6-3059525d6a46)|![Screenshot_20250603-132915](https://github.com/user-attachments/assets/ee01703b-305e-4ae0-aea8-716687d541a1)|
 
-| Dynamic | NC Silhouette | Cyber Pshcyo |
+| Dynamic | NC Silhouette | Cyber Psycho |
 |----|----|----|
 |![Screenshot_20250603-132956](https://github.com/user-attachments/assets/30cbc794-aa44-405e-9b3b-bf2340c96012)|![Screenshot_20250603-132930](https://github.com/user-attachments/assets/7f7f4915-79a9-4c12-a3f7-7b3bfaeb0f00)|![Screenshot_20250603-132939](https://github.com/user-attachments/assets/a2fa5389-ae4a-4815-9541-fc9e3f8578af)|
 
