@@ -39,12 +39,12 @@ A custom theme for **EmulationStation Desktop Edition (ES-DE)** inspired by the 
 
 ---
 
-## 🤖 Android Additional Setup
+## 🤖 Android / Linux / macOS Additional Setup
 
 4. Copy the ```theme-changed``` folder:
 
    ```
-   xmb-es-de/setup/Android/theme-changed
+   xmb-es-de/setup/Android-Linux-macOS/theme-changed
    ```
 
    to your ES-DE scripts directory:
@@ -68,7 +68,7 @@ This script will automatically run when switching to the **XMB** theme and gener
 4. Copy the ```theme-changed``` folder:
 
    ```
-   xmb-es-de/setup/Other OS/theme-changed
+   xmb-es-de/setup/Windows/theme-changed
    ```
 
    to your ES-DE scripts directory:
