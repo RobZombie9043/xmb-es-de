@@ -27,11 +27,14 @@ A custom theme for **EmulationStation Desktop Edition (ES-DE)** designed to emul
 
    This is required so the theme can detect the system order from `es_log.txt`.
 
+2. **Download theme**  
+   Download theme from the GitHub page  
+   Extract to ~ES-DE/themes/xmb-es-de-main (inside this folder should be the theme.xml file)
 ---
 
 ## 🤖 Android Setup
 
-1. Copy the folder:
+1. Copy the ```theme-changed``` folder:
 
    ```
    xmb-es-de/setup/Android/theme-changed
@@ -55,7 +58,7 @@ This script will automatically run when switching to the **xmb-es-de** theme and
 
 ## 💻 Windows / Linux / macOS Setup (Python required)
 
-1. Copy the folder:
+1. Copy the ```theme-changed``` folder:
 
    ```
    xmb-es-de/setup/Other OS/theme-changed
@@ -79,8 +82,7 @@ This script will automatically run when switching to the **xmb-es-de** theme and
 
 ## 🚀 First-Time Launch
 
-1. Launch ES-DE and switch to the **xmb-es-de** theme.
-2. Perform a **metadata rescan** to update the system carousel.
+1. Launch ES-DE and switch to the **XMB** theme.
 
 ---
 
@@ -91,10 +93,7 @@ This script will automatically run when switching to the **xmb-es-de** theme and
 
 2. **Relaunch ES-DE.**
 
-3. Switch from **xmb-es-de** to any other theme, then switch back to **xmb-es-de**.
-
-4. Perform a **metadata rescan** to reflect the updated system order.
-`Main Menu > Utilities > Rescan Rom Directory`
+3. Switch from **XMB** to any other theme, then switch back to **XMB**.
 
 ---
 
@@ -122,7 +121,7 @@ Enjoy the XMB-style experience in ES-DE!
 
 ---
 
-## Crediits
+## Credits
 
 - Original XMB interface design by Sony Interactive Entertainment.
 - System controller icons largely sourced from the Retroarch monochrome controller set 
