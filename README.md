@@ -21,20 +21,26 @@ A custom theme for **EmulationStation Desktop Edition (ES-DE)** designed to emul
 
 ## 📋 Setup Instructions (All OS)
 
-1. **Enable Debug Mode in ES-DE**  
+1. **Enable Custom Event Scripts in ES-DE**  
+   Open ES-DE and go to:  
+   `Main Menu > Other Settings > "Enable Custom Event Scripts"`
+
+   This is required to run the script to generate the xml files needed.
+   
+2. **Enable Debug Mode in ES-DE**  
    Open ES-DE and go to:  
    `Main Menu > Other Settings > Enable "Debug mode"`
 
    This is required so the theme can detect the system order from `es_log.txt`.
 
-2. **Download theme**  
+3. **Download theme**  
    Download theme from the GitHub page  
    Extract to ~ES-DE/themes/xmb-es-de-main (inside this folder should be the theme.xml file)
 ---
 
-## 🤖 Android Setup
+## 🤖 Android Additional Setup
 
-1. Copy the ```theme-changed``` folder:
+4. Copy the ```theme-changed``` folder:
 
    ```
    xmb-es-de/setup/Android/theme-changed
@@ -56,9 +62,9 @@ This script will automatically run when switching to the **xmb-es-de** theme and
 
 ---
 
-## 💻 Windows / Linux / macOS Setup (Python required)
+## 💻 Windows / Linux / macOS Additional Setup (Python required)
 
-1. Copy the ```theme-changed``` folder:
+4. Copy the ```theme-changed``` folder:
 
    ```
    xmb-es-de/setup/Other OS/theme-changed
