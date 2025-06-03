@@ -63,7 +63,7 @@ This script will automatically run when switching to the **XMB** theme and gener
 
 ---
 
-## 💻 Windows / Linux / macOS Additional Setup (Python required)
+## 💻 Windows Additional Setup (Python required)
 
 4. Copy the ```theme-changed``` folder:
 
