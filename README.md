@@ -8,6 +8,17 @@ A custom theme for **EmulationStation Desktop Edition (ES-DE)** designed to emul
 
 ---
 
+## Preview
+| PS 20th Anniversary | Wave - Blue | Famicom |
+|----|----|----|
+|![Screenshot_20250603-132709](https://github.com/user-attachments/assets/05d9dbf7-ff24-49c0-aa40-7dc89ee7ae4f)|![Screenshot_20250603-132855](https://github.com/user-attachments/assets/7a6a488d-baa7-4afc-a5a6-3059525d6a46)|![Screenshot_20250603-132915](https://github.com/user-attachments/assets/ee01703b-305e-4ae0-aea8-716687d541a1)|
+
+| Dynamic | NC Silhouette | Cyber Pshcyo |
+|----|----|----|
+|![Screenshot_20250603-132956](https://github.com/user-attachments/assets/30cbc794-aa44-405e-9b3b-bf2340c96012)|![Screenshot_20250603-132930](https://github.com/user-attachments/assets/7f7f4915-79a9-4c12-a3f7-7b3bfaeb0f00)|![Screenshot_20250603-132939](https://github.com/user-attachments/assets/a2fa5389-ae4a-4815-9541-fc9e3f8578af)|
+
+---
+
 ## 📋 Setup Instructions (All OS)
 
 1. **Enable Debug Mode in ES-DE**  
@@ -109,4 +120,12 @@ After using either tool, **copy the generated `theme-customizations` folder** to
 
 Enjoy the XMB-style experience in ES-DE!
 
+---
+
+## Crediits
+
+- Original XMB interface design by Sony Interactive Entertainment.
+- System controller icons largely sourced from the Retroarch monochrome controller set 
+- Cyperpunk wallpaper - https://wallpapersden.com/cyberpunk-2077-yellow-background-wallpaper/
+- PS 20th Anniversary wallpaper by zonetrooper - https://www.deviantart.com/zonetrooper/art/PlayStation-20th-Anniversary-527200450
 ---
