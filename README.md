@@ -58,7 +58,7 @@ A custom theme for **EmulationStation Desktop Edition (ES-DE)** designed to emul
    ~ES-DE/scripts/theme-changed/generate_xml.sh
    ```
 
-This script will automatically run when switching to the **xmb-es-de** theme and generate the required XML files based on the loaded system order in `es_log.txt`.
+This script will automatically run when switching to the **XMB** theme and generate the required XML files based on the loaded system order in `es_log.txt`.
 
 ---
 
@@ -82,7 +82,7 @@ This script will automatically run when switching to the **xmb-es-de** theme and
    ~ES-DE/scripts/theme-changed/generateXML.bat
    ```
 
-This script will automatically run when switching to the **xmb-es-de** theme and generate the required XML files based on the loaded system order in `es_log.txt`.
+This script will automatically run when switching to the **XMB** theme and generate the required XML files based on the loaded system order in `es_log.txt`.
 
 ---
 
