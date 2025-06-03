@@ -41,6 +41,8 @@ A custom theme for **EmulationStation Desktop Edition (ES-DE)** inspired by the 
 
 ## 🤖 Android / Linux / macOS Additional Setup
 
+> ⚠️ This has only been tested on Android so far but should hopefully be cross-compatible. I'll remove this comment once it has been confirmed to work on Linux / macOS. 
+
 4. Copy the ```theme-changed``` folder:
 
    ```
@@ -118,7 +120,7 @@ If you'd prefer to configure the XML manually rather than run scripts, you can u
 - Run 'XMB xml Generator.xlsm'
 - Use the macro-enabled Excel file to generate the required XML files
 
-After using either tool, **copy the generated `theme-customizations` folder** to the root of the `xmb-es-de-main` theme folder.
+After using either tool, **copy the generated** `theme-customizations` **folder** to the root of the `xmb-es-de-main` theme folder.
 
 ---
 
@@ -131,7 +133,7 @@ Enjoy the XMB-style experience in ES-DE!
 ## Credits
 
 - Original XMB interface design by Sony Interactive Entertainment.
-- System controller icons largely sourced from the Retroarch monochrome controller set 
+- System controller icons largely sourced from the RetroArch monochrome controller set 
 - Cyperpunk wallpaper - https://wallpapersden.com/cyberpunk-2077-yellow-background-wallpaper/
 - PS 20th Anniversary wallpaper by zonetrooper - https://www.deviantart.com/zonetrooper/art/PlayStation-20th-Anniversary-527200450
 ---
