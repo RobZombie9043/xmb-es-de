@@ -1,5 +1,11 @@
 #!/system/bin/sh
 
+# Only run if new theme is 'xmb-es-de'
+if [ "$1" != "xmb-es-de" ]; then
+    echo "⏩ Skipping script: new theme is not xmb-es-de (got '$1')"
+    exit 0
+fi
+
 LOG_PATH="/storage/emulated/0/ES-DE/logs/es_log.txt"
 OUTPUT_DIR="/storage/emulated/0/ES-DE/themes/xmb-es-de/theme-customizations/gamelist-carousel"
 

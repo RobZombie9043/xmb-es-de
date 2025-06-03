@@ -67,8 +67,9 @@ def generate_xml(ordered_items, output_folder):
     print(f"Generated {total} XML files in '{output_folder}'.")
 
 if __name__ == "__main__":
-    log_file = Path("..") / ".." / "logs" / "es_log.txt"  # ../../logs/es_log.txt
-    output_dir = Path("..") / ".." / "themes" / "xmb-es-de" / "theme-customizations" / "gamelist-carousel"
+    script_dir = Path(__file__).resolve().parent
+    log_file = (script_dir / ".." / ".." / ".." / "logs" / "es_log.txt").resolve()
+    output_dir = (script_dir.parent / "theme-customizations" / "gamelist-carousel").resolve()
 
     ordered_items = extract_items_from_log(log_file)
     generate_xml(ordered_items, output_dir)
