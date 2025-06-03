@@ -117,7 +117,7 @@ If you'd prefer to configure the XML manually rather than run scripts, you can u
 
 ### ✅ Excel Macro Tool
 
-- Run 'XMB xml Generator.xlsm'
+- Run `XMB xml Generator.xlsm`
 - Use the macro-enabled Excel file to generate the required XML files
 
 After using either tool, **copy the generated** `theme-customizations` **folder** to the root of the `xmb-es-de-main` theme folder.
