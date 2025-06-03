@@ -13,7 +13,7 @@ A custom theme for **EmulationStation Desktop Edition (ES-DE)** designed to emul
 |----|----|----|
 |![Screenshot_20250603-132709](https://github.com/user-attachments/assets/05d9dbf7-ff24-49c0-aa40-7dc89ee7ae4f)|![Screenshot_20250603-132855](https://github.com/user-attachments/assets/7a6a488d-baa7-4afc-a5a6-3059525d6a46)|![Screenshot_20250603-132915](https://github.com/user-attachments/assets/ee01703b-305e-4ae0-aea8-716687d541a1)|
 
-| Dynamic | NC Silhouette | Cyber Pshcyo |
+| Dynamic | NC Silhouette | Cyber Psycho |
 |----|----|----|
 |![Screenshot_20250603-132956](https://github.com/user-attachments/assets/30cbc794-aa44-405e-9b3b-bf2340c96012)|![Screenshot_20250603-132930](https://github.com/user-attachments/assets/7f7f4915-79a9-4c12-a3f7-7b3bfaeb0f00)|![Screenshot_20250603-132939](https://github.com/user-attachments/assets/a2fa5389-ae4a-4815-9541-fc9e3f8578af)|
 
@@ -27,11 +27,14 @@ A custom theme for **EmulationStation Desktop Edition (ES-DE)** designed to emul
 
    This is required so the theme can detect the system order from `es_log.txt`.
 
+2. **Download theme**  
+   Download theme from the GitHub page  
+   Extract to ~ES-DE/themes/xmb-es-de-main (inside this folder should be the theme.xml file)
 ---
 
 ## 🤖 Android Setup
 
-1. Copy the folder:
+1. Copy the ```theme-changed``` folder:
 
    ```
    xmb-es-de/setup/Android/theme-changed
@@ -55,7 +58,7 @@ This script will automatically run when switching to the **xmb-es-de** theme and
 
 ## 💻 Windows / Linux / macOS Setup (Python required)
 
-1. Copy the folder:
+1. Copy the ```theme-changed``` folder:
 
    ```
    xmb-es-de/setup/Other OS/theme-changed
@@ -79,8 +82,7 @@ This script will automatically run when switching to the **xmb-es-de** theme and
 
 ## 🚀 First-Time Launch
 
-1. Launch ES-DE and switch to the **xmb-es-de** theme.
-2. Perform a **metadata rescan** to update the system carousel.
+1. Launch ES-DE and switch to the **XMB** theme.
 
 ---
 
@@ -91,10 +93,7 @@ This script will automatically run when switching to the **xmb-es-de** theme and
 
 2. **Relaunch ES-DE.**
 
-3. Switch from **xmb-es-de** to any other theme, then switch back to **xmb-es-de**.
-
-4. Perform a **metadata rescan** to reflect the updated system order.
-`Main Menu > Utilities > Rescan Rom Directory`
+3. Switch from **XMB** to any other theme, then switch back to **XMB**.
 
 ---
 
@@ -112,7 +111,7 @@ If you'd prefer to configure the XML manually, you can use:
 - Run 'XMB xml Generator.xlsm'
 - Use the macro-enabled Excel file to generate the required XML files
 
-After using either tool, **copy the generated `theme-customizations` folder** to the root of the `xmb-es-de` theme folder.
+After using either tool, **copy the generated `theme-customizations` folder** to the root of the `xmb-es-de-main` theme folder.
 
 ---
 
@@ -122,7 +121,7 @@ Enjoy the XMB-style experience in ES-DE!
 
 ---
 
-## Crediits
+## Credits
 
 - Original XMB interface design by Sony Interactive Entertainment.
 - System controller icons largely sourced from the Retroarch monochrome controller set 
