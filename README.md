@@ -1,6 +1,6 @@
 # xmb-es-de
 
-A custom theme for **EmulationStation Desktop Edition (ES-DE)** designed to emulate the classic **XcrossMediaBar (XMB)** style interface.
+A custom theme for **EmulationStation Desktop Edition (ES-DE)** inspired by the classic **XrossMediaBar (XMB)** style interface.
 
 > ⚠️ **Important:** This theme requires extra setup to function correctly due to limitations in the ES-DE theme engine.  
 > ES-DE does **not** natively support a system carousel in the gamelist view.  
@@ -21,23 +21,32 @@ A custom theme for **EmulationStation Desktop Edition (ES-DE)** designed to emul
 
 ## 📋 Setup Instructions (All OS)
 
-1. **Enable Debug Mode in ES-DE**  
+1. **Download theme**  
+   Download theme from the GitHub page  
+   Extract to ```~ES-DE/themes/xmb-es-de-main``` (inside this folder should be the theme.xml file)
+   
+2. **Enable Custom Event Scripts in ES-DE**  
+   Open ES-DE and go to:  
+   `Main Menu > Other Settings > "Enable Custom Event Scripts"`
+
+   This is required to run the script to generate the xml files needed.
+   
+3. **Enable Debug Mode in ES-DE**  
    Open ES-DE and go to:  
    `Main Menu > Other Settings > Enable "Debug mode"`
 
    This is required so the theme can detect the system order from `es_log.txt`.
 
-2. **Download theme**  
-   Download theme from the GitHub page  
-   Extract to ~ES-DE/themes/xmb-es-de-main (inside this folder should be the theme.xml file)
 ---
 
-## 🤖 Android Setup
+## 🤖 Android / Linux / macOS Additional Setup
 
-1. Copy the ```theme-changed``` folder:
+> ⚠️ This has only been tested on Android so far but should hopefully be cross-compatible. I'll remove this comment once it has been confirmed to work on Linux / macOS. 
+
+4. Copy the ```theme-changed``` folder:
 
    ```
-   xmb-es-de/setup/Android/theme-changed
+   xmb-es-de/setup/Android-Linux-macOS/theme-changed
    ```
 
    to your ES-DE scripts directory:
@@ -52,16 +61,16 @@ A custom theme for **EmulationStation Desktop Edition (ES-DE)** designed to emul
    ~ES-DE/scripts/theme-changed/generate_xml.sh
    ```
 
-This script will automatically run when switching to the **xmb-es-de** theme and generate the required XML files based on the loaded system order in `es_log.txt`.
+This script will automatically run when switching to the **XMB** theme and generate the required XML files based on the loaded system order in `es_log.txt`.
 
 ---
 
-## 💻 Windows / Linux / macOS Setup (Python required)
+## 💻 Windows Additional Setup (Python required)
 
-1. Copy the ```theme-changed``` folder:
+4. Copy the ```theme-changed``` folder:
 
    ```
-   xmb-es-de/setup/Other OS/theme-changed
+   xmb-es-de/setup/Windows/theme-changed
    ```
 
    to your ES-DE scripts directory:
@@ -76,7 +85,7 @@ This script will automatically run when switching to the **xmb-es-de** theme and
    ~ES-DE/scripts/theme-changed/generateXML.bat
    ```
 
-This script will automatically run when switching to the **xmb-es-de** theme and generate the required XML files based on the loaded system order in `es_log.txt`.
+This script will automatically run when switching to the **XMB** theme and generate the required XML files based on the loaded system order in `es_log.txt`.
 
 ---
 
@@ -88,18 +97,18 @@ This script will automatically run when switching to the **xmb-es-de** theme and
 
 ## 🔁 Updating System Order (After Adding/Removing Systems)
 
-1. **Exit ES-DE completely.**  
+1. **Exit ES-DE completely.** 
+
+2. **Relaunch ES-DE.**   
    This ensures the new system order is saved to `es_log.txt`.
 
-2. **Relaunch ES-DE.**
-
-3. Switch from **XMB** to any other theme, then switch back to **XMB**.
+4. Switch from **XMB** to any other theme, then switch back to **XMB**.
 
 ---
 
 ## 🛠️ Alternative Setup Options
 
-If you'd prefer to configure the XML manually, you can use:
+If you'd prefer to configure the XML manually rather than run scripts, you can use:
 
 ### ✅ Python GUI Tool
 
@@ -108,10 +117,10 @@ If you'd prefer to configure the XML manually, you can use:
 
 ### ✅ Excel Macro Tool
 
-- Run 'XMB xml Generator.xlsm'
+- Run `XMB xml Generator.xlsm`
 - Use the macro-enabled Excel file to generate the required XML files
 
-After using either tool, **copy the generated `theme-customizations` folder** to the root of the `xmb-es-de-main` theme folder.
+After using either tool, **copy the generated** `theme-customizations` **folder** to the root of the `xmb-es-de-main` theme folder.
 
 ---
 
@@ -124,7 +133,7 @@ Enjoy the XMB-style experience in ES-DE!
 ## Credits
 
 - Original XMB interface design by Sony Interactive Entertainment.
-- System controller icons largely sourced from the Retroarch monochrome controller set 
+- System controller icons largely sourced from the RetroArch monochrome controller set 
 - Cyperpunk wallpaper - https://wallpapersden.com/cyberpunk-2077-yellow-background-wallpaper/
 - PS 20th Anniversary wallpaper by zonetrooper - https://www.deviantart.com/zonetrooper/art/PlayStation-20th-Anniversary-527200450
 ---
