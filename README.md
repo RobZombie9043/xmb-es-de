@@ -136,5 +136,5 @@ Enjoy the XMB-style experience in ES-DE!
 - System controller icons largely sourced from the RetroArch monochrome controller set 
 - Cyperpunk wallpaper - https://wallpapersden.com/cyberpunk-2077-yellow-background-wallpaper/
 - PS 20th Anniversary wallpaper by zonetrooper - https://www.deviantart.com/zonetrooper/art/PlayStation-20th-Anniversary-527200450
-- Sewitch 2 Bokeh wallpaper by baxysquare - https://www.reddit.com/r/NintendoSwitch2/comments/1l1ozv7/switch_2_bokeh_wallpaper/
+- Switch 2 Bokeh wallpaper by baxysquare - https://www.reddit.com/r/NintendoSwitch2/comments/1l1ozv7/switch_2_bokeh_wallpaper/
 ---
