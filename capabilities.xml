@@ -66,6 +66,9 @@
 	<colorScheme name="background">
 		<label>Dynamic Backgrounds</label>
 	</colorScheme>
+	<colorScheme name="switch2">
+		<label>Switch 2 Bokeh</label>
+	</colorScheme>
 	<colorScheme name="wave-gray">
 		<label>Wave - Gray</label>
 	</colorScheme>
