@@ -208,7 +208,7 @@ class SystemTransferApp:
     def __init__(self, root):
         self.root = root
         self.root.title("XMB XML Generator")
-        self.root.geometry("1700x800")  # Increased height slightly to accommodate Export button
+        self.root.geometry("1280x760")  # Increased height slightly to accommodate Export button
 
         self.original_left_data = system_data.copy()
         self.left_data = self.original_left_data.copy()
@@ -242,7 +242,13 @@ class SystemTransferApp:
 
         for col in self.columns:
             self.left_tree.heading(col, text=col, command=lambda c=col: self.sort_left_table(c))
-            self.left_tree.column(col, width=200)
+            self.left_tree.column(col, width=145)
+            if col == "fullname":
+                self.left_tree.column(col, width=200)
+            elif col == "hardwareType":
+                self.left_tree.column(col, width=100)
+            elif col == "releaseYear":
+                self.left_tree.column(col, width=80)
 
         button_frame = tk.Frame(self.root)
         button_frame.grid(row=1, column=1, padx=10, pady=(140, 0), sticky="n")
