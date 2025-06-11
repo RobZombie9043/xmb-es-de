@@ -41,7 +41,7 @@ A custom theme for **EmulationStation Desktop Edition (ES-DE)** inspired by the 
 
 ## 🤖 Android / Linux / macOS Additional Setup
 
-> ⚠️ This has only been tested on Android so far but should hopefully be cross-compatible. I'll remove this comment once it has been confirmed to work on Linux / macOS. 
+> ⚠️ This has not yet been tested on macOS but should hopefully be cross-compatible. I'll remove this comment once it has been confirmed to work on macOS. 
 
 4. Copy the ```theme-changed``` folder:
 
@@ -60,6 +60,8 @@ A custom theme for **EmulationStation Desktop Edition (ES-DE)** inspired by the 
    ```
    ~ES-DE/scripts/theme-changed/generate_xml.sh
    ```
+
+5. [Linux] Make the script executable ```chmod 755 ./generate_xml.sh```
 
 This script will automatically run when switching to the **XMB** theme and generate the required XML files based on the loaded system order in `es_log.txt`.
 
