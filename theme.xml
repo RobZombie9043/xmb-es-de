@@ -319,7 +319,7 @@ license:       creative commons CC-BY-NC-SA
 	Gamelist View - Cover
 	///
 	-->
-	<variant name="xmb-cover">
+	<variant name="xmb-cover, xmb-cover-detailed">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<imageType>cover</imageType>
@@ -332,7 +332,7 @@ license:       creative commons CC-BY-NC-SA
 	Gamelist View - Physical Media
 	///
 	-->
-	<variant name="xmb-physicalmedia">
+	<variant name="xmb-physicalmedia, xmb-physicalmedia-detailed">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<imageType>physicalmedia</imageType>
@@ -345,7 +345,7 @@ license:       creative commons CC-BY-NC-SA
 	Gamelist View - Marquee
 	///
 	-->
-	<variant name="xmb-marquee">
+	<variant name="xmb-marquee, xmb-marquee-detailed">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<itemHorizontalAlignment>center</itemHorizontalAlignment>
