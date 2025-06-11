@@ -348,16 +348,8 @@ license:       creative commons CC-BY-NC-SA
 	<variant name="xmb-marquee, xmb-marquee-detailed">
 		<view name="gamelist">
 			<carousel name="game-carousel">
-				<itemHorizontalAlignment>center</itemHorizontalAlignment>
 				<imageType>marquee</imageType>
-				<selectedItemMargins>0.255 0.05</selectedItemMargins>
-				<verticalOffset>-0.015</verticalOffset>
-				<maxItemCount>${maxItemCountCarousel}</maxItemCount>
-				<fontSize>${fontSize4}</fontSize>
-				<fontPath>${fontRodin}</fontPath>
 				<lineSpacing>1.2</lineSpacing>
-				<unfocusedItemOpacity>0.9</unfocusedItemOpacity>
-				<unfocusedItemDimming>0.6</unfocusedItemDimming>
 				<textHorizontalScrolling>false</textHorizontalScrolling>
 			</carousel>
 		</view>	
