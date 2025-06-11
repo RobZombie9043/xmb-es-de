@@ -84,7 +84,7 @@
 				<pos>0.45 0.510</pos>		
 			</text>
 			<text name="game-description">
-				<pos>0.45 0.6</pos>
+				<pos>0.45 0.6065</pos>
 			</text>
 		</view>	
 	</variant>
@@ -102,7 +102,7 @@
 				<pos>0.45 0.510</pos>		
 			</text>
 			<text name="game-description">
-				<pos>0.45 0.6</pos>
+				<pos>0.45 0.6065</pos>
 			</text>
 		</view>	
 	</variant>

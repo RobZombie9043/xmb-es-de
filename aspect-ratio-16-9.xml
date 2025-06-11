@@ -78,13 +78,13 @@
 				<itemSize>0.12 ${itemSizeCarouselHeight}</itemSize>
 			</carousel>
 			<text name="game-name">
-				<pos>0.30714286 0.4585</pos>			
+				<pos>0.32901786 0.4585</pos>			
 			</text>
 			<text name="game-genre">
-				<pos>0.30714286 0.51</pos>		
+				<pos>0.32901786 0.51</pos>		
 			</text>
 			<text name="game-description">
-				<pos>0.30714286 0.6</pos>
+				<pos>0.32901786 0.6065</pos>
 			</text>
 		</view>	
 	</variant>
@@ -102,7 +102,7 @@
 				<pos>0.32901786 0.51</pos>		
 			</text>
 			<text name="game-description">
-				<pos>0.32901786 0.6</pos>
+				<pos>0.32901786 0.6065</pos>
 			</text>
 		</view>	
 	</variant>
