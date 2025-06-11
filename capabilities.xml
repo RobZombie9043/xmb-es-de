@@ -115,12 +115,24 @@
 		<label>XMB - Covers</label>
 		<selectable>true</selectable>
 	</variant>
+	<variant name="xmb-cover-detailed">
+		<label>XMB - Covers (Detailed)</label>
+		<selectable>true</selectable>
+	</variant>
 	<variant name="xmb-physicalmedia">
 		<label>XMB - Physical Media</label>
 		<selectable>true</selectable>		
 	</variant>
+	<variant name="xmb-physicalmedia-detailed">
+		<label>XMB - Physical Media (Detailed)</label>
+		<selectable>true</selectable>		
+	</variant>
 	<variant name="xmb-marquee">
 		<label>XMB - Marquee</label>
+		<selectable>true</selectable>		
+	</variant>
+	<variant name="xmb-marquee-detailed">
+		<label>XMB - Marquee (Detailed)</label>
 		<selectable>true</selectable>		
 	</variant>
 	<variant name="xmb-text">

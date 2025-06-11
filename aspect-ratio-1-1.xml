@@ -14,10 +14,10 @@
 			<entries>back,start,a,b,l,r,lt,rt,down,up,up/down,up/down/left/right,ltrt,lr</entries>
 		</helpsystem>
 		<clock name="clock">
-			<pos>0.775 0.0625</pos>
+			<pos>0.785 0.0625</pos>
 		</clock>
 		<systemstatus name="system-status">
-			<pos>0.775 0.0875</pos>
+			<pos>0.785 0.0875</pos>
 		</systemstatus>
 	</view>
 	<view name="system">
@@ -32,7 +32,7 @@
 	Gamelist View
 	///
 	-->
-	<variant name="xmb-text, xmb-cover, xmb-physicalmedia, xmb-marquee">
+	<variant name="all">
 		<view name="gamelist">
 			<image name="background-carousel-minus-2">
 				<visible>false</visible>
@@ -71,7 +71,7 @@
 		</view>
 	</variant>
 	
-	<variant name="xmb-cover, xmb-physicalmedia">
+	<variant name="xmb-cover, xmb-cover-detailed, xmb-physicalmedia, xmb-physicalmedia-detailed">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<pos>0.3 0</pos>
@@ -83,15 +83,27 @@
 			<text name="game-genre">
 				<pos>0.45 0.510</pos>		
 			</text>
+			<text name="game-description">
+				<pos>0.45 0.6</pos>
+			</text>
 		</view>	
 	</variant>
 	
-	<variant name="xmb-marquee">
+	<variant name="xmb-marquee, xmb-marquee-detailed">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<pos>0.3 0</pos>
 				<itemSize>0.2 ${itemSizeMarqueeHeight}</itemSize>
 			</carousel>
+			<text name="game-name">
+				<pos>0.45 0.4585</pos>		
+			</text>
+			<text name="game-genre">
+				<pos>0.45 0.510</pos>		
+			</text>
+			<text name="game-description">
+				<pos>0.45 0.6</pos>
+			</text>
 		</view>	
 	</variant>
 	

@@ -164,7 +164,7 @@ license:       creative commons CC-BY-NC-SA
 	Gamelist View - All
 	///
 	-->
-	<variant name="xmb-text, xmb-cover, xmb-physicalmedia, xmb-marquee">
+	<variant name="all">
 		<view name="gamelist">
 			<image name="game-background, game-background2">
 				<origin>0 0</origin> 
@@ -248,7 +248,7 @@ license:       creative commons CC-BY-NC-SA
 	Gamelist View - Cover and Physical Media
 	///
 	-->
-	<variant name="xmb-cover, xmb-physicalmedia">
+	<variant name="xmb-cover, xmb-cover-detailed, xmb-physicalmedia, xmb-physicalmedia-detailed, xmb-marquee, xmb-marquee-detailed">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<itemHorizontalAlignment>center</itemHorizontalAlignment>
@@ -272,7 +272,6 @@ license:       creative commons CC-BY-NC-SA
 				<container>true</container>
 				<containerType>horizontal</containerType>
 				<color>${gameNameColor}</color>
-				<stationary>withinView</stationary>	
 			</text>
 			<text name="game-genre">
 				<origin>0 0.5</origin> 
@@ -284,7 +283,33 @@ license:       creative commons CC-BY-NC-SA
 				<fontPath>${fontRodin}</fontPath>
 				<lineSpacing>1.1</lineSpacing>
 				<color>${gameGenreColor}</color>
-				<stationary>withinView</stationary>	
+			</text>
+			<text name="game-description">
+				<origin>0 0</origin> 
+				<horizontalAlignment>left</horizontalAlignment>
+				<verticalAlignment>top</verticalAlignment>
+				<size>0.5 0.2</size>
+				<metadata>description</metadata>
+				<fontSize>${fontSize3}</fontSize>
+				<fontPath>${fontRodin}</fontPath>
+				<lineSpacing>1.5</lineSpacing>
+				<color>${gameGenreColor}</color>
+				<metadataElement>true</metadataElement>
+				<visible>false</visible>
+			</text>
+		</view>	
+	</variant>
+	
+	
+	<!--
+	///
+	Gamelist View - Detailed Variants
+	///
+	-->
+	<variant name="xmb-cover-detailed, xmb-physicalmedia-detailed, xmb-marquee-detailed">
+		<view name="gamelist">
+			<text name="game-description">
+				<visible>true</visible>	
 			</text>
 		</view>	
 	</variant>

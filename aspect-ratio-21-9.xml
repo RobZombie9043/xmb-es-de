@@ -32,7 +32,7 @@
 	Gamelist View
 	///
 	-->
-	<variant name="xmb-text, xmb-cover, xmb-physicalmedia, xmb-marquee">
+	<variant name="all">
 		<view name="gamelist">
 			<image name="background-carousel-minus-2">
 				<pos>0.055555556 0.25</pos>	
@@ -71,7 +71,7 @@
 		</view>
 	</variant>
 	
-	<variant name="xmb-cover, xmb-physicalmedia">
+	<variant name="xmb-cover, xmb-cover-detailed, xmb-physicalmedia, xmb-physicalmedia-detailed">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<pos>0.277777778 0</pos>
@@ -83,15 +83,27 @@
 			<text name="game-genre">
 				<pos>0.338888889 0.51</pos>		
 			</text>
+			<text name="game-description">
+				<pos>0.338888889 0.6</pos>
+			</text>
 		</view>	
 	</variant>
 	
-	<variant name="xmb-marquee">
+	<variant name="xmb-marquee, xmb-marquee-detailed">
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<pos>0.277777778 0</pos>
-				<itemSize>0.15 ${itemSizeMarqueeHeight}</itemSize>
+				<itemSize>0.125 ${itemSizeMarqueeHeight}</itemSize>
 			</carousel>
+			<text name="game-name">
+				<pos>0.3674603 0.4585</pos>			
+			</text>
+			<text name="game-genre">
+				<pos>0.3674603 0.51</pos>		
+			</text>
+			<text name="game-description">
+				<pos>0.3674603 0.6</pos>
+			</text>
 		</view>	
 	</variant>
 	
