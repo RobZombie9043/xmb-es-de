@@ -78,13 +78,16 @@
 				<itemSize>0.085 ${itemSizeCarouselHeight}</itemSize>
 			</carousel>
 			<text name="game-name">
-				<pos>0.3674603 0.4585</pos>			
+				<pos>0.3674603 0.4585</pos>
+				<size>0.487301604 0.07</size>				
 			</text>
 			<text name="game-genre">
 				<pos>0.3674603 0.51</pos>		
+				<size>0.487301604 0.06</size>
 			</text>
 			<text name="game-description">
-				<pos>0.3674603 0.6065</pos>
+				<pos>0.3674603 ${gameDescriptionYPos}</pos>
+				<size>0.487301604 ${gameDescriptionYSize}</size>
 			</text>
 		</view>	
 	</variant>
@@ -96,13 +99,16 @@
 				<itemSize>0.125 ${itemSizeMarqueeHeight}</itemSize>
 			</carousel>
 			<text name="game-name">
-				<pos>0.3674603 0.4585</pos>			
+				<pos>0.3674603 0.4585</pos>		
+				<size>0.487301604 0.07</size>
 			</text>
 			<text name="game-genre">
-				<pos>0.3674603 0.51</pos>		
+				<pos>0.3674603 0.51</pos>	
+				<size>0.487301604 0.06</size>
 			</text>
 			<text name="game-description">
-				<pos>0.3674603 0.6065</pos>
+				<pos>0.3674603 ${gameDescriptionMarqueeYPos}</pos>
+				<size>0.487301604 ${gameDescriptionMarqueeYSize}</size>
 			</text>
 		</view>	
 	</variant>

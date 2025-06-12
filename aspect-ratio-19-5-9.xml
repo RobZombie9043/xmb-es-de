@@ -1,29 +1,29 @@
 <!-- 
-1:1 aspect ratio
+21:9 aspect ratio
 -->
 <theme>
 	<view name="system, gamelist">
 		<image name="system-background-logo">
-			<pos>0.1 0.965</pos>
+			<pos>0.111111111 0.965</pos>
 		</image>
 		<text name="systemName, autoCollectionName, customCollectionName">
-			<pos>0.3 0.355</pos>
-			<size>0.3 0.06</size>			
+			<pos>0.277777778 0.355</pos>
+			<size>0.15 0.06</size>			
 		</text>
 		<helpsystem name="help">
-			<entries>back,start,a,b,l,r,lt,rt,down,up,up/down,up/down/left/right,ltrt,lr</entries>
+			<entries>all</entries>
 		</helpsystem>
 		<clock name="clock">
-			<pos>0.785 0.0625</pos>
+			<pos>0.87 0.0625</pos>
 		</clock>
 		<systemstatus name="system-status">
-			<pos>0.785 0.0875</pos>
+			<pos>0.87 0.0875</pos>
 		</systemstatus>
 	</view>
 	<view name="system">
 		<carousel name="system-carousel">
-			<horizontalOffset>-0.2</horizontalOffset>
-			<maxItemCount>5</maxItemCount>
+			<horizontalOffset>-0.222222222</horizontalOffset>
+			<maxItemCount>9</maxItemCount>
 		</carousel>
 	</view>
 	
@@ -35,38 +35,38 @@
 	<variant name="all">
 		<view name="gamelist">
 			<image name="background-carousel-minus-2">
-				<visible>false</visible>
+				<pos>0.055555556 0.25</pos>	
 			</image>
 			<image name="background-carousel-minus-1">
-				<pos>0.1 0.25</pos>			
+				<pos>0.166666667 0.25</pos>	
 			</image>
 			<image name="background-carousel">
-				<pos>0.3 0.25</pos>	
+				<pos>0.277777778 0.25</pos>
 			</image>
 			<image name="background-carousel-plus-1">
-				<pos>0.5 0.25</pos>			
+				<pos>0.388888889 0.25</pos>		
 			</image>
 			<image name="background-carousel-plus-2">
-				<pos>0.7 0.25</pos>			
+				<pos>0.5 0.25</pos>			
 			</image>
 			<image name="background-carousel-plus-3">
-				<pos>0.9 0.25</pos>			
+				<pos>0.611111111 0.25</pos>		
 			</image>
 			<image name="background-carousel-plus-4">
-				<visible>false</visible>
+				<pos>0.722222222 0.25</pos>
 			</image>
 			<image name="background-carousel-plus-5">
-				<visible>false</visible>
+				<pos>0.833333333 0.25</pos>	
 			</image>
 			<image name="background-carousel-plus-6">
-				<visible>false</visible>
+				<pos>0.944444444 0.25</pos>	
 			</image>
 		</view>
 	</variant>
 	<variant name="xmb-text">
 		<view name="gamelist">	
 			<carousel name="game-carousel">
-				<pos>0.225 0</pos>
+				<pos>0.246137153 0</pos>
 			</carousel>
 		</view>
 	</variant>
@@ -74,20 +74,20 @@
 	<variant name="xmb-cover, xmb-cover-detailed, xmb-physicalmedia, xmb-physicalmedia-detailed">
 		<view name="gamelist">
 			<carousel name="game-carousel">
-				<pos>0.3 0</pos>
-				<itemSize>0.2 ${itemSizeCarouselHeight}</itemSize>
+				<pos>0.277777778 0</pos>
+				<itemSize>0.085 ${itemSizeCarouselHeight}</itemSize>
 			</carousel>
 			<text name="game-name">
-				<pos>0.45 0.4585</pos>
-				<size>0.5 0.07</size>
+				<pos>0.365204678 0.4585</pos>
+				<size>0.491812865 0.07</size>				
 			</text>
 			<text name="game-genre">
-				<pos>0.45 0.510</pos>
-				<size>0.5 0.06</size>				
+				<pos>0.365204678 0.51</pos>		
+				<size>0.491812865 0.06</size>
 			</text>
 			<text name="game-description">
-				<pos>0.45 ${gameDescriptionYPos}</pos>
-				<size>0.5 ${gameDescriptionYSize}</size>
+				<pos>0.365204678 ${gameDescriptionYPos}</pos>
+				<size>0.491812865 ${gameDescriptionYSize}</size>
 			</text>
 		</view>	
 	</variant>
@@ -95,20 +95,20 @@
 	<variant name="xmb-marquee, xmb-marquee-detailed">
 		<view name="gamelist">
 			<carousel name="game-carousel">
-				<pos>0.3 0</pos>
-				<itemSize>0.2 ${itemSizeMarqueeHeight}</itemSize>
+				<pos>0.277777778 0</pos>
+				<itemSize>0.125 ${itemSizeMarqueeHeight}</itemSize>
 			</carousel>
 			<text name="game-name">
-				<pos>0.45 0.4585</pos>
-				<size>0.5 0.07</size>				
+				<pos>0.365204678 0.4585</pos>		
+				<size>0.491812865 0.07</size>
 			</text>
 			<text name="game-genre">
-				<pos>0.45 0.510</pos>
-				<size>0.5 0.06</size>
+				<pos>0.365204678 0.51</pos>	
+				<size>0.491812865 0.06</size>
 			</text>
 			<text name="game-description">
-				<pos>0.45 ${gameDescriptionMarqueeYPos}</pos>
-				<size>0.5 ${gameDescriptionMarqueeYSize}</size>
+				<pos>0.365204678 ${gameDescriptionMarqueeYPos}</pos>
+				<size>0.491812865 ${gameDescriptionMarqueeYSize}</size>
 			</text>
 		</view>	
 	</variant>

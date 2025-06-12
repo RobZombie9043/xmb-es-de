@@ -386,14 +386,32 @@ license:       creative commons CC-BY-NC-SA
 	Aspect Ratios
 	///
 	-->
-	<aspectRatio name="1:1, 5:4, 4:3, 8:7">
+	<aspectRatio name="1:1">
 		<include>./aspect-ratio-1-1.xml</include>
 	</aspectRatio>
-	<aspectRatio name="16:9, 3:2, 16:10">
+	<aspectRatio name="5:4">
+		<include>./aspect-ratio-5-4.xml</include>
+	</aspectRatio>
+	<aspectRatio name="4:3">
+		<include>./aspect-ratio-4-3.xml</include>
+	</aspectRatio>
+	<aspectRatio name="8:7">
+		<include>./aspect-ratio-8-7.xml</include>
+	</aspectRatio>
+	<aspectRatio name="16:9">
 		<include>./aspect-ratio-16-9.xml</include>
 	</aspectRatio>
-	<aspectRatio name="21:9, 19.5:9">
+	<aspectRatio name="3:2">
+		<include>./aspect-ratio-3-2.xml</include>
+	</aspectRatio>
+	<aspectRatio name="16:10">
+		<include>./aspect-ratio-16-10.xml</include>
+	</aspectRatio>
+	<aspectRatio name="21:9">
 		<include>./aspect-ratio-21-9.xml</include>
+	</aspectRatio>
+	<aspectRatio name="19.5:9">
+		<include>./aspect-ratio-19-5-9.xml</include>
 	</aspectRatio>
 	
 	<!--
@@ -409,7 +427,11 @@ license:       creative commons CC-BY-NC-SA
 			<fontSize4>0.018</fontSize4>
 			<maxItemCountCarousel>9</maxItemCountCarousel>
 			<itemSizeCarouselHeight>0.1025</itemSizeCarouselHeight>
+			<gameDescriptionYPos>0.5925</gameDescriptionYPos>
+			<gameDescriptionYSize>0.217</gameDescriptionYSize>
 			<itemSizeMarqueeHeight>0.08</itemSizeMarqueeHeight>
+			<gameDescriptionMarqueeYPos>0.6025</gameDescriptionMarqueeYPos>
+			<gameDescriptionMarqueeYSize>0.2</gameDescriptionMarqueeYSize>
 		</variables>
 	</fontSize>
 	<fontSize name="medium">
@@ -420,7 +442,11 @@ license:       creative commons CC-BY-NC-SA
 			<fontSize4>0.018</fontSize4>
 			<maxItemCountCarousel>8</maxItemCountCarousel>
 			<itemSizeCarouselHeight>0.1175</itemSizeCarouselHeight>
+			<gameDescriptionYPos>0.598</gameDescriptionYPos>
+			<gameDescriptionYSize>0.2665</gameDescriptionYSize>
 			<itemSizeMarqueeHeight>0.1</itemSizeMarqueeHeight>
+			<gameDescriptionMarqueeYPos>0.609</gameDescriptionMarqueeYPos>
+			<gameDescriptionMarqueeYSize>0.2665</gameDescriptionMarqueeYSize>
 		</variables>
 	</fontSize>
 	<fontSize name="large">
@@ -431,7 +457,11 @@ license:       creative commons CC-BY-NC-SA
 			<fontSize4>0.018</fontSize4>
 			<maxItemCountCarousel>7</maxItemCountCarousel>
 			<itemSizeCarouselHeight>0.135</itemSizeCarouselHeight>
+			<gameDescriptionYPos>0.6065</gameDescriptionYPos>
+			<gameDescriptionYSize>0.25</gameDescriptionYSize>
 			<itemSizeMarqueeHeight>0.12</itemSizeMarqueeHeight>
+			<gameDescriptionMarqueeYPos>0.6155</gameDescriptionMarqueeYPos>
+			<gameDescriptionMarqueeYSize>0.25</gameDescriptionMarqueeYSize>
 		</variables>
 	</fontSize>
 	
