@@ -261,22 +261,22 @@ license:       creative commons CC-BY-NC-SA
 				<unfocusedItemDimming>0.6</unfocusedItemDimming>
 			</carousel>
 			<text name="game-name">
-				<origin>0 0.5</origin> 
+				<origin>0 1</origin> 
 				<horizontalAlignment>left</horizontalAlignment>
-				<verticalAlignment>center</verticalAlignment>
-				<size>0.5 0.07</size>
+				<verticalAlignment>bottom</verticalAlignment>
+				<size>0.5 0.078</size>
 				<metadata>name</metadata>
 				<fontSize>${fontSize1}</fontSize>
 				<fontPath>${fontRodin}</fontPath>
-				<lineSpacing>1.3</lineSpacing>
+				<lineSpacing>1.1</lineSpacing>
 				<container>true</container>
 				<containerType>horizontal</containerType>
 				<color>${gameNameColor}</color>
 			</text>
 			<text name="game-genre">
-				<origin>0 0.5</origin> 
+				<origin>0 0</origin> 
 				<horizontalAlignment>left</horizontalAlignment>
-				<verticalAlignment>center</verticalAlignment>
+				<verticalAlignment>top</verticalAlignment>
 				<size>0.5 0.06</size>
 				<metadata>genre</metadata>
 				<fontSize>${fontSize3}</fontSize>
