@@ -245,7 +245,7 @@ license:       creative commons CC-BY-NC-SA
 	
 	<!--
 	///
-	Gamelist View - Cover and Physical Media
+	Gamelist View - Cover, Physical Media and Marquee
 	///
 	-->
 	<variant name="xmb-cover, xmb-cover-detailed, xmb-physicalmedia, xmb-physicalmedia-detailed, xmb-marquee, xmb-marquee-detailed">
@@ -255,6 +255,7 @@ license:       creative commons CC-BY-NC-SA
 				<selectedItemMargins>0.255 0.05</selectedItemMargins>
 				<verticalOffset>-0.015</verticalOffset>
 				<maxItemCount>${maxItemCountCarousel}</maxItemCount>
+				
 				<fontSize>${fontSize4}</fontSize>
 				<fontPath>${fontRodin}</fontPath>
 				<unfocusedItemOpacity>0.9</unfocusedItemOpacity>
@@ -323,6 +324,7 @@ license:       creative commons CC-BY-NC-SA
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<imageType>cover</imageType>
+				<itemScale>1.4</itemScale>
 			</carousel>
 		</view>	
 	</variant>
@@ -336,6 +338,7 @@ license:       creative commons CC-BY-NC-SA
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<imageType>physicalmedia</imageType>
+				<itemScale>1.4</itemScale>
 			</carousel>
 		</view>	
 	</variant>
