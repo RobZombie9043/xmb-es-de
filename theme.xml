@@ -324,7 +324,7 @@ license:       creative commons CC-BY-NC-SA
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<imageType>cover</imageType>
-				<itemScale>1.4</itemScale>
+				<itemScale>1.3</itemScale>
 			</carousel>
 		</view>	
 	</variant>
@@ -338,7 +338,7 @@ license:       creative commons CC-BY-NC-SA
 		<view name="gamelist">
 			<carousel name="game-carousel">
 				<imageType>physicalmedia</imageType>
-				<itemScale>1.4</itemScale>
+				<itemScale>1.3</itemScale>
 			</carousel>
 		</view>	
 	</variant>
