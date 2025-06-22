@@ -8,6 +8,7 @@
 			<gamelistDefaultImagePath>./_inc/images/PS20th.webp</gamelistDefaultImagePath>
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
+			<gamelistVideoVisible>false</gamelistVideoVisible>
 			<bgLogoVisible>false</bgLogoVisible>
 			<bgFrameVisible>false</bgFrameVisible>
 			<systemCarouselIconColor>ffffff</systemCarouselIconColor>
@@ -34,6 +35,7 @@
 			<gamelistDefaultImagePath>./_inc/images/cyberpunk.jpg</gamelistDefaultImagePath>
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
+			<gamelistVideoVisible>false</gamelistVideoVisible>
 			<bgLogoVisible>false</bgLogoVisible>
 			<bgFrameVisible>true</bgFrameVisible>
 			<systemCarouselIconColor>000000</systemCarouselIconColor>
@@ -60,6 +62,7 @@
 			<gamelistDefaultImagePath>./_inc/images/cyberpunk.png</gamelistDefaultImagePath>
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
+			<gamelistVideoVisible>false</gamelistVideoVisible>
 			<bgLogoVisible>false</bgLogoVisible>
 			<bgFrameVisible>false</bgFrameVisible>
 			<systemCarouselIconColor>c5003c</systemCarouselIconColor>
@@ -86,6 +89,7 @@
 			<gamelistDefaultImagePath>./_inc/images/famicom-red.png</gamelistDefaultImagePath>
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
+			<gamelistVideoVisible>false</gamelistVideoVisible>
 			<bgLogoVisible>false</bgLogoVisible>
 			<bgFrameVisible>false</bgFrameVisible>
 			<systemCarouselIconColor>ffffff</systemCarouselIconColor>
@@ -112,6 +116,34 @@
 			<gamelistDefaultImagePath>./_inc/systems/modern/_default.webp</gamelistDefaultImagePath>
 			<gamelistImagePathVisible>false</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>true</gamelistImageTypeVisible>
+			<gamelistVideoVisible>false</gamelistVideoVisible>
+			<bgLogoVisible>false</bgLogoVisible>
+			<bgFrameVisible>false</bgFrameVisible>
+			<systemCarouselIconColor>ffffff</systemCarouselIconColor>
+			<systemUnfocusedItemOpacity>1</systemUnfocusedItemOpacity>
+			<systemUnfocusedItemDimming>0.75</systemUnfocusedItemDimming>
+			<gamelistUnfocusedItemOpacity>1</gamelistUnfocusedItemOpacity>
+			<gamelistUnfocusedItemBrightness>-1</gamelistUnfocusedItemBrightness>
+			<scrollFadeIn>true</scrollFadeIn>
+			<systemNameTextColor>FFFFFF</systemNameTextColor>
+			<helpTextColor>FFFFFFFF</helpTextColor>
+			<helpIconColor>FFFFFFFF</helpIconColor>
+			<carouselTextColor>FFFFFF</carouselTextColor>
+			<gameNameColor>FFFFFF</gameNameColor>
+			<gameGenreColor>FFFFFF</gameGenreColor>
+			<statusBGColor>FFFFFF26</statusBGColor>
+		</variables>
+    </colorScheme>
+	<colorScheme name="immersive">
+        <variables>
+			<iconType>monochrome</iconType>
+			<blurBG>true</blurBG>
+			<bgCropPos>0.5 0.5</bgCropPos>
+			<gamelistImagePath>./_inc/systems/modern/${system.theme}.webp</gamelistImagePath>
+			<gamelistDefaultImagePath>./_inc/systems/modern/_default.webp</gamelistDefaultImagePath>
+			<gamelistImagePathVisible>false</gamelistImagePathVisible>
+			<gamelistImageTypeVisible>true</gamelistImageTypeVisible>
+			<gamelistVideoVisible>true</gamelistVideoVisible>
 			<bgLogoVisible>false</bgLogoVisible>
 			<bgFrameVisible>false</bgFrameVisible>
 			<systemCarouselIconColor>ffffff</systemCarouselIconColor>
@@ -138,6 +170,7 @@
 			<gamelistDefaultImagePath>./_inc/images/switch2.jpg</gamelistDefaultImagePath>
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
+			<gamelistVideoVisible>false</gamelistVideoVisible>
 			<bgLogoVisible>false</bgLogoVisible>
 			<bgFrameVisible>false</bgFrameVisible>
 			<systemCarouselIconColor>ffffff</systemCarouselIconColor>
@@ -162,6 +195,7 @@
 			<bgCropPos>0.5 0.5</bgCropPos>
 			<gamelistImagePathVisible>true</gamelistImagePathVisible>
 			<gamelistImageTypeVisible>false</gamelistImageTypeVisible>
+			<gamelistVideoVisible>false</gamelistVideoVisible>
 			<bgLogoVisible>false</bgLogoVisible>
 			<bgFrameVisible>false</bgFrameVisible>
 			<systemCarouselIconColor>ffffff</systemCarouselIconColor>

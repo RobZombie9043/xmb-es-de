@@ -186,6 +186,16 @@ license:       creative commons CC-BY-NC-SA
 				<imageType>fanart, screenshot</imageType>
 				<visible>${gamelistImageTypeVisible}</visible>
 			</image>
+			<video name="game-background-video">
+				<origin>0 0</origin> 
+				<pos>0 0</pos>			
+				<cropSize>1 1</cropSize>			
+				<zIndex>1</zIndex>
+				<stationary>always</stationary>
+				<scrollFadeIn>${scrollFadeIn}</scrollFadeIn>
+				<imageType>fanart, screenshot</imageType>
+				<visible>${gamelistVideoVisible}</visible>
+			</video>
 			<carousel name="game-carousel">
 				<origin>0.5 0</origin>
 				<size>1 1</size>
