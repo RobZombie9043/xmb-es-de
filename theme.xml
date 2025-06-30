@@ -44,6 +44,24 @@ license:       creative commons CC-BY-NC-SA
 			<color>000000</color>
 			<opacity>0.35</opacity>
 		</image>
+		<!-- <image name="wave-image">
+			<origin>0 0</origin> 
+			<pos>0 0</pos>			
+			<size>1 1</size>			
+			<path>./_inc/images/wave.png</path>
+			<zIndex>1.8</zIndex>
+			<stationary>always</stationary>
+		</image> -->
+		<video name="wave-video">
+			<origin>0 0</origin> 
+			<pos>0 0</pos>			
+			<size>1 1</size>			
+			<path>./_inc/images/wave.mp4</path>
+			<zIndex>1.9</zIndex>
+			<stationary>always</stationary>
+			<fadeInTime>0</fadeInTime>
+			<visible>${waveVideoVisible}</visible>
+		</video>
 		<image name="system-background-logo">
 			<origin>0.5 1</origin>
 			<maxSize>0.1 0.1</maxSize>

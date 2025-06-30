@@ -72,6 +72,9 @@
 	<colorScheme name="switch2">
 		<label>Switch 2 Bokeh</label>
 	</colorScheme>
+	<colorScheme name="wave-video">
+		<label>Wave - Video</label>
+	</colorScheme>
 	<colorScheme name="wave-gray">
 		<label>Wave - Gray</label>
 	</colorScheme>
