@@ -67,7 +67,9 @@ This script will automatically run when switching to the **XMB** theme and gener
 
 ---
 
-## 💻 Windows Additional Setup (Python required)
+## 💻 Windows Additional Setup
+
+> ⚠️ The Windows version of the script requires Python to be installed to work.
 
 4. Copy the ```theme-changed``` folder:
 
