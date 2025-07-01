@@ -312,6 +312,7 @@ license:       creative commons CC-BY-NC-SA
 				<fontPath>${fontRodin}</fontPath>
 				<lineSpacing>1.1</lineSpacing>
 				<color>${gameGenreColor}</color>
+				<defaultValue>:space:</defaultValue>
 			</text>
 			<text name="game-description">
 				<origin>0 0</origin> 
