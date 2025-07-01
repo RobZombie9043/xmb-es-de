@@ -141,5 +141,5 @@ Enjoy the XMB-style experience in ES-DE!
 - Cyperpunk wallpaper - https://wallpapersden.com/cyberpunk-2077-yellow-background-wallpaper/
 - PS 20th Anniversary wallpaper by zonetrooper - https://www.deviantart.com/zonetrooper/art/PlayStation-20th-Anniversary-527200450
 - Switch 2 Bokeh wallpaper by baxysquare - https://www.reddit.com/r/NintendoSwitch2/comments/1l1ozv7/switch_2_bokeh_wallpaper/
-- PS3 XMB menu wave recreation video - https://www.youtube.com/watch?v=P58YKN4BQx0
+- PS3 XMB menu wave recreation video - mohamedhany1024 - https://github.com/mohamedhany1024/ps3-xmb-web/
 ---
